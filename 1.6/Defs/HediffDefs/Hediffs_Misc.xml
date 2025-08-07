@@ -4,33 +4,33 @@
   <!--===============Acid Defs===============-->
 
 	<HediffDef ParentName="InjuryBase">
-    <defName>RT_AcidBurn</defName>
-    <label>acid burn</label>
-    <labelNoun>an acid burn</labelNoun>
-    <description>An acid burn.</description>
-    <comps>
-      <li Class="HediffCompProperties_TendDuration">
-        <labelTendedWell>bandaged</labelTendedWell>
-        <labelTendedWellInner>tended</labelTendedWellInner>
-        <labelSolidTendedWell>tended</labelSolidTendedWell>
-      </li>
-      <li Class="HediffCompProperties_Infecter">
-        <infectionChance>0.30</infectionChance>
-      </li>
-      <li Class="HediffCompProperties_GetsPermanent">
-        <permanentLabel>acid burn scar</permanentLabel>
-      </li>
-    </comps>
-    <injuryProps>
-      <painPerSeverity>0.01875</painPerSeverity>
-      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
-      <canMerge>true</canMerge>
-      <destroyedLabel>Corroded</destroyedLabel>
-      <destroyedOutLabel>Corroded</destroyedOutLabel>
-    </injuryProps>
-  </HediffDef>
+		<defName>RT_AcidBurn</defName>
+		<label>acid burn</label>
+		<labelNoun>an acid burn</labelNoun>
+		<description>An acid burn.</description>
+		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<labelTendedWell>bandaged</labelTendedWell>
+				<labelTendedWellInner>tended</labelTendedWellInner>
+				<labelSolidTendedWell>tended</labelSolidTendedWell>
+			</li>
+			<li Class="HediffCompProperties_Infecter">
+				<infectionChance>0.30</infectionChance>
+			</li>
+			<li Class="HediffCompProperties_GetsPermanent">
+				<permanentLabel>acid burn scar</permanentLabel>
+			</li>
+		</comps>
+		<injuryProps>
+			<painPerSeverity>0.01875</painPerSeverity>
+			<averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
+			<canMerge>true</canMerge>
+			<destroyedLabel>Corroded</destroyedLabel>
+			<destroyedOutLabel>Corroded</destroyedOutLabel>
+		</injuryProps>
+	</HediffDef>
 
-  <HediffDef>
+	<HediffDef>
 		<defName>RT_AcidBuildup</defName>
 		<hediffClass>RT_Rimtroid.Hediff_AcidBuildup</hediffClass>
 		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
@@ -87,7 +87,7 @@
 
   <!--===============Misc Metroid Defs===============-->
 
-<HediffDef>
+	<HediffDef>
 		<defName>RT_LowRest</defName>
 		<description>The simplicity of this creature allows it to function properly with very little rest.</description>
 
@@ -104,7 +104,7 @@
 	</HediffDef>
 
 
-<HediffDef>
+	<HediffDef>
 		<defName>RT_FasterRegen</defName>
 		<description>The cellular structure of this creature allows it to heal much quicker than other creatures.</description>
 
@@ -175,12 +175,12 @@
 		<description>A strong sedative meant pacifying metroids. Specifically inhibits nuclei activity; unable to cpletely knock it out, but if effective enough to cause a similiar lack of conciousness.</description>
 		<defaultLabelColor>(0.7,1,0.7)</defaultLabelColor>
 		<hediffClass>RT_Core.Hediff_MetroidFoodInjection</hediffClass>
-    <initialSeverity>1</initialSeverity>
-    <isBad>false</isBad>
+		<initialSeverity>1</initialSeverity>
+		<isBad>false</isBad>
 		<stages>
-      <li>
-        <label>minor</label>
-        <hungerRateFactorOffset>-0.2</hungerRateFactorOffset>
+			<li>
+				<label>minor</label>
+				<hungerRateFactorOffset>-0.2</hungerRateFactorOffset>
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
@@ -188,9 +188,9 @@
 					</li>
 				</capMods>
 			</li>
-      <li>
+			<li>
 				<label>moderate</label>
-        <hungerRateFactorOffset>-0.2</hungerRateFactorOffset>
+				<hungerRateFactorOffset>-0.2</hungerRateFactorOffset>
 				<minSeverity>0.4</minSeverity>
 				<capMods>
 					<li>
@@ -198,10 +198,10 @@
 						<offset>-0.4</offset>
 					</li>
 				</capMods>
-      </li>
-      <li>
+			</li>
+			<li>
 				<label>major</label>
-        <hungerRateFactorOffset>-0.2</hungerRateFactorOffset>
+				<hungerRateFactorOffset>-0.2</hungerRateFactorOffset>
 				<minSeverity>0.8</minSeverity>
 				<capMods>
 					<li>
@@ -209,10 +209,10 @@
 						<offset>-0.6</offset>
 					</li>
 				</capMods>
-      </li>
-      <li>
+			</li>
+			<li>
 				<label>inhibited</label>
-        <hungerRateFactorOffset>-0.2</hungerRateFactorOffset>
+				<hungerRateFactorOffset>-0.2</hungerRateFactorOffset>
 				<minSeverity>1</minSeverity>
 				<capMods>
 					<li>
@@ -220,7 +220,7 @@
 						<setMax>0.1</setMax>
 					</li>
 				</capMods>
-      </li>
+			</li>
 		</stages>
 		<comps>
 			<li Class="HediffCompProperties_Disappears">
@@ -251,29 +251,29 @@
         		<showHoursToRecover>true</showHoursToRecover>
       		</li>
     	</comps>
-      <stages>
+		<stages>
         	<li>
-          	<painFactor>0.6</painFactor>
-          	<capMods>
-            	<li>
-              	<capacity>Consciousness</capacity>
-              	<offset>-0.40</offset>
-            	</li>
-            	<li>
-             		<capacity>BloodFiltration</capacity>
-             		<offset>-0.30</offset>
-           		</li>
-           		<li>
-                <capacity>BloodPumping</capacity>
-            		<offset>-0.45</offset>
+				<painFactor>0.6</painFactor>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.40</offset>
+					</li>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>-0.30</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>-0.45</offset>
          			</li>
          			<li>
-           			<capacity>Breathing</capacity>
-           			<offset>-0.20</offset>
-          		</li>
-          	</capMods>
-        </li>
-      </stages>
+						<capacity>Breathing</capacity>
+						<offset>-0.20</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
   	</HediffDef>
 
 	<HediffDef>
@@ -289,15 +289,15 @@
 		</stages>
 	</HediffDef>
 
-<li Class="HediffGiver_Birthday">
-	<hediff>RT_BanteeState</hediff>
+	<!--<li Class="HediffGiver_Birthday">
+		<hediff>RT_BanteeState</hediff>
 		<ageFractionChanceCurve>
 		<points>
 			<li>(0, 1)</li>
 			<li>(0.24, 0)</li>
 		</points>
 		</ageFractionChanceCurve>
-</li>
+	</li>-->
 
 	<HediffDef>
 		<defName>RT_LatchedMetroid</defName>

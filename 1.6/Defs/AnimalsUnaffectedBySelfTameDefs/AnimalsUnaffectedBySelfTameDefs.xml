@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<VEF.AnimalBehaviours.AnimalsUnaffectedBySelfTameDef>
+		<defName>RT_AnimalsUnaffectedBySelfTameDef</defName>
+		<unaffectedBySelfTamePawns>				
+			<li>RT_MetroidLarvae</li>
+			<li>RT_AlphaMetroid</li>
+			<li>RT_GammaMetroid</li>
+			<li>RT_ZetaMetroid</li>
+			<li>RT_OmegaMetroid</li>
+			<li>RT_QueenMetroid</li>
+			<!--<li>RT_Megaroid</li>-->
+		</unaffectedBySelfTamePawns>							
+	</VEF.AnimalBehaviours.AnimalsUnaffectedBySelfTameDef>
+
+</Defs>

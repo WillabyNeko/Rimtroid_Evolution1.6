@@ -20,7 +20,7 @@
 		<isRanged>true</isRanged>
 		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
 		<armorCategory>Heat</armorCategory>
-    <defaultArmorPenetration>0.5</defaultArmorPenetration>
+		<defaultArmorPenetration>0.5</defaultArmorPenetration>
 	</DamageDef>
 
 	<DamageDef>
@@ -33,7 +33,7 @@
 
 		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
 		<armorCategory>Heat</armorCategory>
-    <defaultArmorPenetration>0.5</defaultArmorPenetration>
+		<defaultArmorPenetration>0.5</defaultArmorPenetration>
 	</DamageDef>
 
   <!--===============Life Draining; applies the damage, alongside the hediff===============-->
@@ -99,14 +99,14 @@
 		<deathMessage>{0} was given too many injections.</deathMessage>
 		<hediff>RT_SedativeBuildup</hediff>
 		<isRanged>true</isRanged>
-    <defaultDamage>3</defaultDamage>
-    <armorCategory>Sharp</armorCategory>
+		<defaultDamage>3</defaultDamage>
+		<armorCategory>Sharp</armorCategory>
 		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
 		<!--<armorCategory>Cold</armorCategory> -->
-    <defaultArmorPenetration>0.9</defaultArmorPenetration>
+		<defaultArmorPenetration>0.9</defaultArmorPenetration>
 		<buildingDamageFactor>0.01</buildingDamageFactor>
 		<plantDamageFactor>0.01</plantDamageFactor>
-    <canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
+		<canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
 		<makesBlood>false</makesBlood>
 	</DamageDef>
 
