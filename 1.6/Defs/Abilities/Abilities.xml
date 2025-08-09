@@ -161,6 +161,8 @@
 		</comps>
 	</AbilityDef>-->
 	
+	<!-- Using as a ref -->
+	
 	<!--<AbilityDef ParentName="AbilityTouchBase">
 		<defName>UnnaturalHealing</defName>
 		<label>unnatural healing</label>
