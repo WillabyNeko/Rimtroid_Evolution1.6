@@ -1,6 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-
+	
+	<!--=============== Energy Drain Ability Base ===============-->
+	
+	<AbilityDef ParentName="AbilityTouchBase" Name="RT_DrainBase" Abstract="True">
+		<label>Energy Drain</label>
+		<description>Drains energy from a designated, live target, rapidly gaining age in the process.</description>
+		<iconPath>UI/Abilities/EnergyDrain</iconPath>
+		<cooldownTicksRange>3000</cooldownTicksRange>
+		<aiCanUse>true</aiCanUse>
+		<stunTargetWhileCasting>false</stunTargetWhileCasting>
+		<!--<abilityClass>RT_Core.Ability_AbsorbEnergy</abilityClass>-->
+		<targetRequired>true</targetRequired>
+		<writeCombatLog>true</writeCombatLog>
+		
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<drawAimPie>false</drawAimPie>
+			<range>-1</range>
+			<warmupTime>0</warmupTime>
+			<soundCast>RT_SoundShockwave</soundCast>
+			<requireLineOfSight>false</requireLineOfSight>
+			<targetParams>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetMechs>true</canTargetMechs>
+				<canTargetLocations>false</canTargetLocations>
+				<canTargetBuildings>false</canTargetBuildings>
+			</targetParams>
+			<ai_IsWeapon>false</ai_IsWeapon>
+		</verbProperties>
+		<comps>
+			<!--<li Class="RT_Core.AbilityCompProperties_AbilityControl">
+				<compClass>RT_Core.AbilityComp_AbilityControl</compClass>
+				<autoUse>true</autoUse>
+				<gizmoOnText>Energy Drain Enabled</gizmoOnText>
+				<gizmoOffText>Energy Drain Disabled</gizmoOffText>
+				<gizmoOnIconPath>UI/Abilities/EnergyDrain</gizmoOnIconPath>
+				<gizmoOffIconPath>UI/Abilities/EnergyDrain</gizmoOffIconPath>
+				<gizmoDesc>Toggle automatic usage of energy draining</gizmoDesc>
+			</li>
+			<li Class="RT_Core.AbilityCompProperties_Cooldown">
+				<compClass>RT_Core.AbilityComp_Cooldown</compClass>
+				<cooldownPool>BanteeAbilityPool</cooldownPool>
+				<cooldownTicksRange>3000</cooldownTicksRange>
+				<independent>false</independent>
+				<resetsTimer>false</resetsTimer>
+			</li>-->
+		</comps>
+	</AbilityDef>
+	
+	
 	<!--=============== Bantee Abilities ===============-->
 
 	<AbilityDef>
@@ -48,6 +97,105 @@
 			</li>
 		</comps>
 	</AbilityDef>
+	
+	<AbilityDef ParentName="RT_DrainBase">
+		<defName>RT_BanteeDrainNew</defName> <!-- New Attempt at Bantee ability -->
+		<comps>
+			<li Class="RT_Core.AbilityCompProperties_AbilityControl">
+				<compClass>RT_Core.AbilityComp_AbilityControl</compClass>
+				<autoUse>true</autoUse>
+				<gizmoOnText>Energy Drain Enabled</gizmoOnText>
+				<gizmoOffText>Energy Drain Disabled</gizmoOffText>
+				<gizmoOnIconPath>UI/Abilities/EnergyDrain</gizmoOnIconPath>
+				<gizmoOffIconPath>UI/Abilities/EnergyDrain</gizmoOffIconPath>
+				<gizmoDesc>Toggle automatic usage of energy draining</gizmoDesc>
+			</li>
+		</comps>
+	</AbilityDef>
+	
+	<!-- <AbilityDef ParentName="RT_DrainBase">
+		<defName>RT_BanteeDrainNew</defName> New Attempt at Bantee ability --><!--
+		<label>Energy Drain</label>
+		<description>Drains energy from a designated, live target, rapidly gaining age in the process.</description>
+		<iconPath>UI/Abilities/EnergyDrain</iconPath>
+		<cooldownTicksRange>3300</cooldownTicksRange>
+		<aiCanUse>true</aiCanUse>
+		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>-->
+		<!--<abilityClass>RT_Core.Ability_AbsorbEnergy</abilityClass>--><!--
+		<targetRequired>true</targetRequired>
+		<writeCombatLog>true</writeCombatLog>
+		
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<drawAimPie>false</drawAimPie>
+			<range>-1</range>
+			<warmupTime>0</warmupTime>
+			<soundCast>RT_SoundShockwave</soundCast>
+			<requireLineOfSight>false</requireLineOfSight>
+			<targetParams>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetMechs>true</canTargetMechs>
+				<canTargetLocations>false</canTargetLocations>
+				<canTargetBuildings>false</canTargetBuildings>
+			</targetParams>
+			<ai_IsWeapon>false</ai_IsWeapon>
+		</verbProperties>
+		<comps>
+			<li Class="RT_Core.AbilityCompProperties_AbilityControl">
+				<compClass>RT_Core.AbilityComp_AbilityControl</compClass>
+				<autoUse>true</autoUse>
+				<gizmoOnText>Energy Drain Enabled</gizmoOnText>
+				<gizmoOffText>Energy Drain Disabled</gizmoOffText>
+				<gizmoOnIconPath>UI/Abilities/EnergyDrain</gizmoOnIconPath>
+				<gizmoOffIconPath>UI/Abilities/EnergyDrain</gizmoOffIconPath>
+				<gizmoDesc>Toggle automatic usage of energy draining</gizmoDesc>
+			</li>
+			<li Class="RT_Core.AbilityCompProperties_Cooldown">
+				<compClass>RT_Core.AbilityComp_Cooldown</compClass>
+				<cooldownPool>BanteeAbilityPool</cooldownPool>
+				<cooldownTicksRange>3000</cooldownTicksRange>
+				<independent>false</independent>
+				<resetsTimer>false</resetsTimer>
+			</li>
+		</comps>
+	</AbilityDef>-->
+	
+	<!--<AbilityDef ParentName="AbilityTouchBase">
+		<defName>UnnaturalHealing</defName>
+		<label>unnatural healing</label>
+		<description>Use dark psychic influence to heal someone. The process will stop bleeding, restore blood loss, and can even heal significant injuries. However, it may also have unexpected side effects.</description>
+		<iconPath>UI/Abilities/UnnaturalHealing</iconPath>-->
+		<!--<cooldownTicksRange>360000</cooldownTicksRange>  6 days -->
+		<!--<showPsycastEffects>false</showPsycastEffects>
+		<sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
+		<stunTargetWhileCasting>true</stunTargetWhileCasting>
+		<moteOffsetAmountTowardsTarget>0.5</moteOffsetAmountTowardsTarget>
+		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+		<warmupMote>Mote_HoraxSmallSpellWarmup</warmupMote>
+		<warmupEffecter>HoraxianAbilityCasting</warmupEffecter>
+		<warmupSound>AnomalyAbilityWarmup</warmupSound>
+		<hostile>false</hostile>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<drawAimPie>false</drawAimPie>
+			<range>-1</range>
+			<warmupTime>4.5</warmupTime>
+			<targetParams>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetMechs>false</canTargetMechs>
+				<canTargetBuildings>false</canTargetBuildings>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="CompProperties_UnnaturalHealing" />
+			<li Class="CompProperties_AbilityFleckOnTarget">
+				<fleckDef>UnnaturalHealing</fleckDef>
+			</li>
+		</comps>
+	</AbilityDef>-->
 
 	<!--=============== Larvae Abilities ===============-->
 
