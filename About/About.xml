@@ -1,12 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Rimtroid: Evolution (private)</name>
-	<packageId>Rimtroid.Evolution.Private</packageId>
+	<name>Rimtroid: Evolution Lite (private)</name>
+	<packageId>Rimtroid.Evolution.Lite.Private</packageId>
 	<author>Azarae</author>
 	<supportedVersions>
-		<li>1.2</li>
-		<li>1.3</li>
-		<li>1.4</li>
+		<li>1.6</li>
 	</supportedVersions>
 	<description>Adds the iconic Metroid species from the "Metroid" game series, alongisde all it's stages.
 	
@@ -20,9 +18,9 @@
 	<modDependenciesByVersion>
 	</modDependenciesByVersion>
 	<loadAfter>
-    <li>brrainz.harmony</li>
+		<li>brrainz.harmony</li>
 		<li>unlimitedhugs.hugslib</li>
-    <li>Rimtroid.Core</li>
+		<li>Rimtroid.Core</li>
 	</loadAfter>
 	<incompatibleWith>
       <li></li>
