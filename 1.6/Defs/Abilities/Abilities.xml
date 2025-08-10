@@ -288,14 +288,13 @@
 				<gizmoOffIconPath>UI/Abilities/UI_EnergyBomb</gizmoOffIconPath>
 				<gizmoDesc>Toggle Bomb Usage</gizmoDesc>
 			</li>
-			<!--
 			<li Class="RT_Core.AbilityCompProperties_Cooldown">
 				<compClass>RT_Core.AbilityComp_Cooldown</compClass>
 				<cooldownPool>AlphaAbilityPool</cooldownPool>
 				<cooldownTicksRange>200</cooldownTicksRange>
 				<independent>false</independent>
 				<resetsTimer>false</resetsTimer>
-			</li> -->
+			</li>
 		</comps>
 	</AbilityDef>
 
@@ -316,13 +315,24 @@
 		<cooldownTicksRange>1200~1600</cooldownTicksRange>
 		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
 		<disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+		<writeCombatLog>True</writeCombatLog>
 		<iconPath>UI/Abilities/UI_ElectricBeam</iconPath>
 		<verbProperties>
 			<verbClass>Verb_AbilityShoot</verbClass>
-			<range>26</range>
-			<minRange>1</minRange>
 			<defaultProjectile>RT_GammaBeam</defaultProjectile>
+			<range>35</range>
+			<minRange>3</minRange>
+			<accuracyTouch>0.70</accuracyTouch>
+			<accuracyShort>0.80</accuracyShort>
+			<accuracyMedium>0.90</accuracyMedium>
+			<accuracyLong>0.85</accuracyLong>
+			<hasStandardCommand>true</hasStandardCommand>
 			<commonality>2</commonality>
+			<warmupTime>2</warmupTime>
+			<burstShotCount>1</burstShotCount>
+			<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+			<soundCast>RT_SoundElectricBeam</soundCast>
+			<muzzleFlashScale>1</muzzleFlashScale>
 		</verbProperties>
 		<comps>
 			<li Class="RT_Core.AbilityCompProperties_AbilityControl">
@@ -334,7 +344,7 @@
 				<gizmoOffIconPath>UI/Abilities/UI_ElectricBeam</gizmoOffIconPath>
 				<gizmoDesc>Toggle Electric Beam Usage</gizmoDesc>
 			</li>
-			<li Class="RT_Core.AbilityCompProperties_CastVerb">
+			<!--<li Class="RT_Core.AbilityCompProperties_CastVerb">
 				<compClass>RT_Core.AbilityComp_CastVerb</compClass>
 				<verbProperties>
 					<li>
@@ -354,7 +364,7 @@
 						<muzzleFlashScale>1</muzzleFlashScale>
 					</li>
 				</verbProperties>
-			</li>
+			</li>-->
 			<li Class="RT_Core.AbilityCompProperties_Cooldown">
 				<compClass>RT_Core.AbilityComp_Cooldown</compClass>
 				<cooldownPool>GammaAbilityPool</cooldownPool>
@@ -445,7 +455,7 @@
 		<disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
 		<iconPath>UI/Abilities/UI_StunPulse</iconPath>
 		<verbProperties>
-			<verbClass>RT_Core.Verb_CastAbility_Base</verbClass>
+			<verbClass>Verb_CastAbility</verbClass>
 			<warmupTime>1</warmupTime>
 			<range>5</range>
 			<meleeDamageDef>Burn</meleeDamageDef>
@@ -559,11 +569,22 @@
 		<disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
 		<iconPath>UI/Abilities/UI_FireBolt</iconPath>
 		<verbProperties>
-			<verbClass>Verb_CastAbility</verbClass>
+			<verbClass>Verb_Shoot</verbClass>
+			<defaultProjectile>RT_ZetaFirebolt</defaultProjectile>
 			<range>28</range>
 			<minRange>1</minRange>
-			<defaultProjectile>RT_ZetaFirebolt</defaultProjectile>
+			<accuracyTouch>0.70</accuracyTouch>
+			<accuracyShort>0.80</accuracyShort>
+			<accuracyMedium>0.90</accuracyMedium>
+			<accuracyLong>0.85</accuracyLong>
+			<hasStandardCommand>true</hasStandardCommand>
 			<commonality>2</commonality>
+			<warmupTime>0.5</warmupTime>
+			<burstShotCount>3</burstShotCount>
+			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+			<soundCast>RT_SoundFirebolt</soundCast>
+			<muzzleFlashScale>1</muzzleFlashScale>
+			<ai_IsWeapon>false</ai_IsWeapon>
 		</verbProperties>
 		<comps>
 			<li Class="RT_Core.AbilityCompProperties_AbilityControl">
@@ -575,7 +596,7 @@
 				<gizmoOffIconPath>UI/Abilities/UI_FireBolt</gizmoOffIconPath>
 				<gizmoDesc>Toggle Firebolt Usage</gizmoDesc>
 			</li>
-			<li Class="RT_Core.AbilityCompProperties_CastVerb">
+			<!--<li Class="RT_Core.AbilityCompProperties_CastVerb">
 				<compClass>RT_Core.AbilityComp_CastVerb</compClass>
 				<verbProperties>
 					<li>
@@ -595,7 +616,7 @@
 						<muzzleFlashScale>1</muzzleFlashScale>
 					</li>
 				</verbProperties>
-			</li>
+			</li>-->
 			<li Class="RT_Core.AbilityCompProperties_Cooldown">
 				<compClass>RT_Core.AbilityComp_Cooldown</compClass>
 				<cooldownPool>ZetaAbilityPool</cooldownPool>
@@ -616,11 +637,22 @@
 		<disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
 		<iconPath>UI/Abilities/UI_AcidBolt</iconPath>
 		<verbProperties>
-			<verbClass>Verb_CastAbility</verbClass>
+			<verbClass>Verb_Shoot</verbClass>
+			<defaultProjectile>RT_ZetaAcid</defaultProjectile>
 			<range>28</range>
 			<minRange>1</minRange>
-			<defaultProjectile>RT_ZetaAcid</defaultProjectile>
+			<accuracyTouch>0.70</accuracyTouch>
+			<accuracyShort>0.80</accuracyShort>
+			<accuracyMedium>0.90</accuracyMedium>
+			<accuracyLong>0.85</accuracyLong>
+			<hasStandardCommand>true</hasStandardCommand>
 			<commonality>2</commonality>
+			<warmupTime>0.7</warmupTime>
+			<burstShotCount>5</burstShotCount>
+			<ticksBetweenBurstShots>16</ticksBetweenBurstShots>
+			<soundCast>RT_SoundAcidbolt</soundCast>
+			<muzzleFlashScale>1</muzzleFlashScale>
+			<ai_IsWeapon>false</ai_IsWeapon>
 		</verbProperties>
 		<comps>
 			<li Class="RT_Core.AbilityCompProperties_AbilityControl">
@@ -632,7 +664,7 @@
 				<gizmoOffIconPath>UI/Abilities/UI_AcidBolt</gizmoOffIconPath>
 				<gizmoDesc>Toggle Acid Spit Usage</gizmoDesc>
 			</li>
-			<li Class="RT_Core.AbilityCompProperties_CastVerb">
+			<!--<li Class="RT_Core.AbilityCompProperties_CastVerb">
 				<compClass>RT_Core.AbilityComp_CastVerb</compClass>
 				<verbProperties>
 					<li>
@@ -652,7 +684,7 @@
 						<muzzleFlashScale>1</muzzleFlashScale>
 					</li>
 				</verbProperties>
-			</li>
+			</li>-->
 			<li Class="RT_Core.AbilityCompProperties_Cooldown">
 				<compClass>RT_Core.AbilityComp_Cooldown</compClass>
 				<cooldownPool>ZetaAbilityPool</cooldownPool>
@@ -673,11 +705,22 @@
 		<disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
 		<iconPath>UI/Abilities/UI_FireBreath</iconPath>
 		<verbProperties>
-			<verbClass>Verb_CastAbility</verbClass>
+			<verbClass>Verb_Shoot</verbClass>
+			<defaultProjectile>RT_FireBreath</defaultProjectile>
 			<range>4</range>
 			<minRange>1</minRange>
-			<defaultProjectile>RT_FireBreath</defaultProjectile>
+			<accuracyTouch>0.70</accuracyTouch>
+			<accuracyShort>0.80</accuracyShort>
+			<accuracyMedium>0.90</accuracyMedium>
+			<accuracyLong>0.85</accuracyLong>
+			<hasStandardCommand>true</hasStandardCommand>
 			<commonality>2</commonality>
+			<warmupTime>2.5</warmupTime>
+			<burstShotCount>1</burstShotCount>
+			<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+			<soundCast>RT_SoundFireBreath</soundCast>
+			<muzzleFlashScale>1</muzzleFlashScale>
+			<ai_IsWeapon>false</ai_IsWeapon>
 		</verbProperties>
 		<comps>
 			<li Class="RT_Core.AbilityCompProperties_AbilityControl">
@@ -689,7 +732,7 @@
 				<gizmoOffIconPath>UI/Abilities/UI_FireBreath</gizmoOffIconPath>
 				<gizmoDesc>Toggle Fire Breath Usage</gizmoDesc>
 			</li>
-			<li Class="RT_Core.AbilityCompProperties_CastVerb">
+			<!--<li Class="RT_Core.AbilityCompProperties_CastVerb">
 				<compClass>RT_Core.AbilityComp_CastVerb</compClass>
 				<verbProperties>
 					<li>
@@ -709,7 +752,7 @@
 						<muzzleFlashScale>1</muzzleFlashScale>
 					</li>
 				</verbProperties>
-			</li>
+			</li>-->
 			<li Class="RT_Core.AbilityCompProperties_Cooldown">
 				<compClass>RT_Core.AbilityComp_Cooldown</compClass>
 				<cooldownPool>ZetaAbilityPool</cooldownPool>
@@ -735,15 +778,27 @@
 		<disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
 		<iconPath>UI/Abilities/UI_Fireball</iconPath>
 		<verbProperties>
-			<verbClass>Verb_CastAbility</verbClass>
-			<range>30</range>
-			<minRange>4</minRange>
+			<verbClass>Verb_Shoot</verbClass>
 			<defaultProjectile>RT_Fireball</defaultProjectile>
+			<range>40</range>
+			<minRange>3</minRange>
 			<targetParams>
 				<canTargetPawns>true</canTargetPawns>
 				<canTargetLocations>true</canTargetLocations>
 			</targetParams>
+			<accuracyTouch>0.70</accuracyTouch>
+			<accuracyShort>0.80</accuracyShort>
+			<accuracyMedium>0.90</accuracyMedium>
+			<accuracyLong>0.85</accuracyLong>
+			<hasStandardCommand>true</hasStandardCommand>
 			<commonality>2</commonality>
+			<defaultProjectile>RT_Fireball</defaultProjectile>
+			<warmupTime>2</warmupTime>
+			<burstShotCount>3</burstShotCount>
+			<ticksBetweenBurstShots>18</ticksBetweenBurstShots>
+			<soundCast>RT_SoundFirebolt</soundCast>
+			<muzzleFlashScale>1</muzzleFlashScale>
+			<ai_IsWeapon>false</ai_IsWeapon>
 		</verbProperties>
 		<comps>
 			<li Class="RT_Core.AbilityCompProperties_AbilityControl">
@@ -755,7 +810,7 @@
 				<gizmoOffIconPath>UI/Abilities/UI_Fireball</gizmoOffIconPath>
 				<gizmoDesc>Toggle Fireball Usage</gizmoDesc>
 			</li>
-			<li Class="RT_Core.AbilityCompProperties_CastVerb">
+			<!--li Class="RT_Core.AbilityCompProperties_CastVerb">
 				<compClass>RT_Core.AbilityComp_CastVerb</compClass>
 				<verbProperties>
 					<li>
@@ -775,7 +830,7 @@
 						<muzzleFlashScale>1</muzzleFlashScale>
 					</li>
 				</verbProperties>
-			</li>
+			</li>-->
 			<li Class="RT_Core.AbilityCompProperties_Cooldown">
 				<compClass>RT_Core.AbilityComp_Cooldown</compClass>
 				<cooldownPool>OmegaAbilityPool</cooldownPool>
@@ -795,11 +850,22 @@
 		<disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
 		<iconPath>UI/Abilities/UI_FireBeam2</iconPath>
 		<verbProperties>
-			<verbClass>Verb_CastAbility</verbClass>
-			<range>30</range>
-			<minRange>3</minRange>
+			<verbClass>Verb_Shoot</verbClass>
 			<defaultProjectile>RT_OmegaBeam</defaultProjectile>
+			<range>35</range>
+			<minRange>3</minRange>
+			<accuracyTouch>0.70</accuracyTouch>
+			<accuracyShort>0.80</accuracyShort>
+			<accuracyMedium>0.90</accuracyMedium>
+			<accuracyLong>0.85</accuracyLong>
+			<hasStandardCommand>true</hasStandardCommand>
 			<commonality>2</commonality>
+			<warmupTime>2.5</warmupTime>
+			<burstShotCount>1</burstShotCount>
+			<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+			<soundCast>RT_SoundFireBeam</soundCast>
+			<muzzleFlashScale>1</muzzleFlashScale>
+			<ai_IsWeapon>false</ai_IsWeapon>
 		</verbProperties>
 		<comps>
 			<li Class="RT_Core.AbilityCompProperties_AbilityControl">
@@ -811,7 +877,7 @@
 				<gizmoOffIconPath>UI/Abilities/UI_FireBeam2</gizmoOffIconPath>
 				<gizmoDesc>Toggle Firebeam Usage</gizmoDesc>
 			</li>
-			<li Class="RT_Core.AbilityCompProperties_CastVerb">
+			<!--<li Class="RT_Core.AbilityCompProperties_CastVerb">
 				<compClass>RT_Core.AbilityComp_CastVerb</compClass>
 				<verbProperties>
 					<li>
@@ -831,7 +897,7 @@
 						<muzzleFlashScale>1</muzzleFlashScale>
 					</li>
 				</verbProperties>
-			</li>
+			</li>-->
 			<li Class="RT_Core.AbilityCompProperties_Cooldown">
 				<compClass>RT_Core.AbilityComp_Cooldown</compClass>
 				<cooldownPool>OmegaAbilityPool</cooldownPool>
@@ -861,11 +927,22 @@
 		<disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
 		<iconPath>UI/Abilities/UI_FireBeam2</iconPath>
 		<verbProperties>
-			<verbClass>Verb_CastAbility</verbClass>
-			<range>45</range>
-			<minRange>3</minRange>
+			<verbClass>Verb_Shoot</verbClass>
 			<defaultProjectile>RT_QueenBeam</defaultProjectile>
+			<range>50</range>
+			<minRange>3</minRange>
+			<accuracyTouch>0.70</accuracyTouch>
+			<accuracyShort>0.80</accuracyShort>
+			<accuracyMedium>0.90</accuracyMedium>
+			<accuracyLong>0.85</accuracyLong>
+			<hasStandardCommand>true</hasStandardCommand>
 			<commonality>2</commonality>
+			<warmupTime>2.5</warmupTime>
+			<burstShotCount>1</burstShotCount>
+			<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+			<soundCast>RT_SoundFireBeam</soundCast>
+			<muzzleFlashScale>1</muzzleFlashScale>
+			<ai_IsWeapon>false</ai_IsWeapon>
 		</verbProperties>
 		<comps>
 			<li Class="RT_Core.AbilityCompProperties_AbilityControl">
@@ -877,7 +954,7 @@
 				<gizmoOffIconPath>UI/Abilities/UI_FireBeam2</gizmoOffIconPath>
 				<gizmoDesc>Toggle Firebeam Usage</gizmoDesc>
 			</li>
-			<li Class="RT_Core.AbilityCompProperties_CastVerb">
+			<!--<li Class="RT_Core.AbilityCompProperties_CastVerb">
 				<compClass>RT_Core.AbilityComp_CastVerb</compClass>
 				<verbProperties>
 					<li>
@@ -897,7 +974,7 @@
 						<muzzleFlashScale>1</muzzleFlashScale>
 					</li>
 				</verbProperties>
-			</li>
+			</li>-->
 			<li Class="RT_Core.AbilityCompProperties_Cooldown">
 				<compClass>RT_Core.AbilityComp_Cooldown</compClass>
 				<cooldownPool>QueenAbilityPool</cooldownPool>

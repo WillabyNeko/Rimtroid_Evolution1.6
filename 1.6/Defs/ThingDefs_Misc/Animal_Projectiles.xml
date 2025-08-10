@@ -6,42 +6,42 @@
 	<ThingDef Abstract="True" Name="RT_Bullet_LaserColored" ParentName="RT_Bullet_LaserGeneric">
 		<seam>0.25</seam>
 		<textures>
-			<li>AnimalProjectile/GammaBolt</li>
+			<li>Things/Projectile/GammaBolt</li>
 		</textures>
 	</ThingDef>
 
 	<ThingDef Abstract="True" Name="RT_Bullet_FireBeam" ParentName="RT_Bullet_LaserGeneric">
 		<seam>0.25</seam>
 		<textures>
-			<li>AnimalProjectile/FireBeam1</li>
+			<li>Things/Projectile/FireBeam1</li>
 		</textures>
 	</ThingDef>
 
 	<ThingDef Abstract="True" Name="RT_Bullet_ElectricBeam" ParentName="RT_Bullet_LaserGeneric">
 		<seam>0.25</seam>
 		<textures>
-			<li>AnimalProjectile/ElectricBeam1</li>
+			<li>Things/Projectile/ElectricBeam1</li>
 		</textures>
 	</ThingDef>
 
 	<ThingDef Abstract="True" Name="RT_Bullet_FireBreath" ParentName="RT_Bullet_LaserGeneric">
 		<seam>0.25</seam>
 		<textures>
-			<li>AnimalProjectile/FireBreath</li>
+			<li>Things/Projectile/FireBreath</li>
 		</textures>
 	</ThingDef>
 
 
 	<!--Gamma Abilities-->
 
-	<ThingDef ParentName="RT_Bullet_ElectricBeam">
+	<ThingDef ParentName="RT_Bullet_ElectricBeam" Class="VEF.Weapons.LaserBeamDef">
 		<defName>RT_GammaBeam</defName>
 		<thingClass>VEF.Weapons.LaserBeam</thingClass>
 		<label>Electric Beam</label>
 		<altitudeLayer>MoteOverhead</altitudeLayer>
 		<graphicData>
 			<shaderType>TransparentPostLight</shaderType>
-			<texPath>AnimalProjectile/ElectricBeam1</texPath>
+			<texPath>Things/Projectile/ElectricBeam1</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
@@ -60,13 +60,13 @@
 		<lifetime>250</lifetime>
 	</ThingDef>
 
-	<ThingDef ParentName="RT_Bullet_LaserColored">
+	<ThingDef ParentName="RT_Bullet_LaserColored" Class="VEF.Weapons.LaserBeamDef">
 		<defName>RT_GammaBolt</defName>
 		<thingClass>VEF.Weapons.LaserBeam</thingClass>
 		<label>Electic Bolt</label>
 		<graphicData>
 			<shaderType>TransparentPostLight</shaderType>
-			<texPath>AnimalProjectile/GammaBolt</texPath>
+			<texPath>Things/Projectile/GammaBolt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
@@ -83,18 +83,14 @@
 
 	<!-- Zeta Abilities -->
 
-	<ThingDef>
+	<ThingDef ParentName="BaseBullet">
 		<defName>RT_ZetaFirebolt</defName>
-		<thingClass>RT_Core.AnimalProjectile</thingClass>
+		<thingClass>Projectile_Explosive</thingClass>
 		<label>Firebolt</label>
-		<category>Projectile</category>
-		<tickerType>Normal</tickerType>
 		<altitudeLayer>MoteOverhead</altitudeLayer>
-		<useHitPoints>False</useHitPoints>
-		<neverMultiSelect>True</neverMultiSelect>
 		<graphicData>
 			<shaderType>TransparentPostLight</shaderType>
-			<texPath>AnimalProjectile/Firebolt</texPath>
+			<texPath>Things/Projectile/Firebolt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
@@ -108,18 +104,14 @@
 	</ThingDef>
 
 
-	<ThingDef>
+	<ThingDef ParentName="BaseBullet">
 		<defName>RT_ZetaAcid</defName>
-		<thingClass>RT_Core.AnimalProjectile</thingClass>
+		<thingClass>Projectile_Explosive</thingClass>
 		<label>acidic spit</label>
-		<category>Projectile</category>
-		<tickerType>Normal</tickerType>
 		<altitudeLayer>MoteOverhead</altitudeLayer>
-		<useHitPoints>False</useHitPoints>
-		<neverMultiSelect>True</neverMultiSelect>
 		<graphicData>
 			<shaderType>TransparentPostLight</shaderType>
-			<texPath>AnimalProjectile/Acidbolt</texPath>
+			<texPath>Things/Projectile/Acidbolt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
@@ -132,14 +124,14 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="RT_Bullet_FireBreath">
+	<ThingDef ParentName="RT_Bullet_FireBreath" Class="VEF.Weapons.LaserBeamDef">
 		<defName>RT_FireBreath</defName>
 		<thingClass>VEF.Weapons.LaserBeam</thingClass>
 		<label>Fire Breath</label>
 		<altitudeLayer>MoteOverhead</altitudeLayer>
 		<graphicData>
 			<shaderType>TransparentPostLight</shaderType>
-			<texPath>AnimalProjectile/FireBreath</texPath>
+			<texPath>Things/Projectile/FireBreath</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
@@ -162,18 +154,13 @@
 
 	<!-- Omega Abilities -->
 
-	<ThingDef>
+	<ThingDef ParentName="BaseBullet">
 		<defName>RT_Fireball</defName>
 		<label>Fireball</label>
-		<category>Projectile</category>
-		<tickerType>Normal</tickerType>
-		<altitudeLayer>Projectile</altitudeLayer>
-		<useHitPoints>False</useHitPoints>
-		<neverMultiSelect>True</neverMultiSelect>
 		<thingClass>Projectile_Explosive</thingClass>
 		<graphicData>
 			<shaderType>TransparentPostLight</shaderType>
-			<texPath>AnimalProjectile/Fireball</texPath>
+			<texPath>Things/Projectile/Fireball</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
@@ -189,14 +176,14 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="RT_Bullet_FireBeam">
+	<ThingDef ParentName="RT_Bullet_FireBeam" Class="VEF.Weapons.LaserBeamDef">
 		<defName>RT_OmegaBeam</defName>
 		<thingClass>VEF.Weapons.LaserBeam</thingClass>
 		<label>Firebeam</label>
 		<altitudeLayer>MoteOverhead</altitudeLayer>
 		<graphicData>
 			<shaderType>TransparentPostLight</shaderType>
-			<texPath>AnimalProjectile/FireBeam1</texPath>
+			<texPath>Things/Projectile/FireBeam1</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
@@ -218,14 +205,14 @@
 
 	<!-- Queen Abilities-->
 
-	<ThingDef ParentName="RT_Bullet_FireBeam">
+	<ThingDef ParentName="RT_Bullet_FireBeam" Class="VEF.Weapons.LaserBeamDef">
 		<defName>RT_QueenBeam</defName>
 		<thingClass>VEF.Weapons.LaserBeam</thingClass>
 		<label>Firebeam</label>
 		<altitudeLayer>MoteOverhead</altitudeLayer>
 		<graphicData>
 			<shaderType>TransparentPostLight</shaderType>
-			<texPath>AnimalProjectile/FireBeam1</texPath>
+			<texPath>Things/Projectile/FireBeam1</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
@@ -249,8 +236,8 @@
 		<label>zeta flame</label>
 		<thingClass>RT_Rimtroid.FlamethrowProjectile</thingClass>
 		<graphicData>
-			<texPath>AnimalProjectile/FireBreath</texPath>
-			<texPathFadeOut>AnimalProjectile/FireBreathFadeOut</texPathFadeOut>
+			<texPath>Things/Projectile/FireBreath</texPath>
+			<texPathFadeOut>Things/Projectile/FireBreathFadeOut</texPathFadeOut>
 			<shaderType>MoteGlow</shaderType>
 		</graphicData>
 		<projectile>
@@ -301,8 +288,8 @@
 		<label>omega sweep</label>
 		<thingClass>RT_Rimtroid.SweepProjectile</thingClass>
 		<graphicData>
-			<texPath>AnimalProjectile/FireBreath</texPath>
-			<texPathFadeOut>AnimalProjectile/FireBreathFadeOut</texPathFadeOut>
+			<texPath>Things/Projectile/FireBreath</texPath>
+			<texPathFadeOut>Things/Projectile/FireBreathFadeOut</texPathFadeOut>
 			<shaderType>MoteGlow</shaderType>
 		</graphicData>
 		<projectile>
