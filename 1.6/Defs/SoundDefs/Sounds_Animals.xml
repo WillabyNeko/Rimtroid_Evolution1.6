@@ -15,7 +15,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawns/Bantee/Call</clipFolderPath>
+						<clipPath>Pawns/Bantee/Call</clipPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -46,7 +46,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawns/Bantee/Call</clipFolderPath>
+						<clipPath>Pawns/Bantee/Call</clipPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -77,7 +77,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawns/Bantee/Wounded</clipFolderPath>
+						<clipPath>Pawns/Bantee/Wounded</clipPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -108,7 +108,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawns/Bantee/Death</clipFolderPath>
+						<clipPath>Pawns/Bantee/Death</clipPath>
 					</li>
 				</grains>
 
@@ -139,7 +139,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawns/Larvae/Call</clipFolderPath>
+						<clipPath>Pawns/Larvae/Call</clipPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -170,7 +170,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawns/Larvae/Call</clipFolderPath>
+						<clipPath>Pawns/Larvae/Call</clipPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -201,7 +201,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawns/Larvae/Wounded</clipFolderPath>
+						<clipPath>Pawns/Larvae/Wounded</clipPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -232,7 +232,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawns/Larvae/Death</clipFolderPath>
+						<clipPath>Pawns/Larvae/Death</clipPath>
 					</li>
 				</grains>
 
@@ -262,7 +262,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawns/Alpha/Call</clipFolderPath>
+						<clipPath>Pawns/Alpha/Call</clipPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -293,7 +293,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawns/Alpha/Call</clipFolderPath>
+						<clipPath>Pawns/Alpha/Call</clipPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -324,7 +324,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawns/Alpha/Wounded</clipFolderPath>
+						<clipPath>Pawns/Alpha/Wounded</clipPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -355,7 +355,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawns/Alpha/Death</clipFolderPath>
+						<clipPath>Pawns/Alpha/Death</clipPath>
 					</li>
 				</grains>
 
@@ -385,7 +385,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawns/Gamma/Call</clipFolderPath>
+						<clipPath>Pawns/Gamma/Call</clipPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -416,7 +416,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawns/Gamma/Call</clipFolderPath>
+						<clipPath>Pawns/Gamma/Call</clipPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -447,10 +447,10 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawns/Gamma/Wounded</clipFolderPath>
+						<clipPath>Pawns/Gamma/Wounded</clipPath>
 					</li>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawns/Gamma/Call</clipFolderPath>
+						<clipPath>Pawns/Gamma/Call</clipPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -481,7 +481,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawns/Gamma/Death</clipFolderPath>
+						<clipPath>Pawns/Gamma/Death</clipPath>
 					</li>
 				</grains>
 
@@ -510,7 +510,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawns/Zeta/Call</clipFolderPath>
+						<clipPath>Pawns/Zeta/Call</clipPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -541,7 +541,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawns/Zeta/Call</clipFolderPath>
+						<clipPath>Pawns/Zeta/Call</clipPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -572,7 +572,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawns/Zeta/Wounded</clipFolderPath>
+						<clipPath>Pawns/Zeta/Wounded</clipPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -603,7 +603,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawns/Zeta/Death</clipFolderPath>
+						<clipPath>Pawns/Zeta/Death</clipPath>
 					</li>
 				</grains>
 
@@ -632,7 +632,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawns/Omega/Call</clipFolderPath>
+						<clipPath>Pawns/Omega/Call</clipPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -663,7 +663,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawns/Omega/Call</clipFolderPath>
+						<clipPath>Pawns/Omega/Call</clipPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -694,7 +694,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawns/Omega/Wounded</clipFolderPath>
+						<clipPath>Pawns/Omega/Wounded</clipPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -725,7 +725,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawns/Omega/Death</clipFolderPath>
+						<clipPath>Pawns/Omega/Death</clipPath>
 					</li>
 				</grains>
 
@@ -754,7 +754,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawns/Queen/Call</clipFolderPath>
+						<clipPath>Pawns/Queen/Call</clipPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -785,7 +785,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawns/Queen/Call</clipFolderPath>
+						<clipPath>Pawns/Queen/Call</clipPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -816,7 +816,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawns/Queen/Wounded</clipFolderPath>
+						<clipPath>Pawns/Queen/Wounded</clipPath>
 					</li>
 				</grains>
 				<volumeRange>
@@ -847,7 +847,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Pawns/Queen/Death</clipFolderPath>
+						<clipPath>Pawns/Queen/Death</clipPath>
 					</li>
 				</grains>
 

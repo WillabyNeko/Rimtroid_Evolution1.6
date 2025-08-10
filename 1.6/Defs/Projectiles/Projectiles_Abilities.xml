@@ -34,9 +34,9 @@
 
 	<!--Gamma Abilities-->
 
-	<ThingDef ParentName="RT_Bullet_ElectricBeam" Class="RT_Core.LaserBeamDef">
+	<ThingDef ParentName="RT_Bullet_ElectricBeam">
 		<defName>RT_GammaBeam</defName>
-		<thingClass>RT_Core.LaserBeam</thingClass>
+		<thingClass>VEF.Weapons.LaserBeam</thingClass>
 		<label>Electric Beam</label>
 		<altitudeLayer>MoteOverhead</altitudeLayer>
 		<graphicData>
@@ -60,9 +60,9 @@
 		<lifetime>250</lifetime>
 	</ThingDef>
 
-	<ThingDef ParentName="RT_Bullet_LaserColored" Class="RT_Core.LaserBeamDef">
+	<ThingDef ParentName="RT_Bullet_LaserColored">
 		<defName>RT_GammaBolt</defName>
-		<thingClass>RT_Core.LaserBeam</thingClass>
+		<thingClass>VEF.Weapons.LaserBeam</thingClass>
 		<label>Electic Bolt</label>
 		<graphicData>
 			<shaderType>TransparentPostLight</shaderType>
@@ -132,9 +132,9 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="RT_Bullet_FireBreath" Class="RT_Core.LaserBeamDef">
+	<ThingDef ParentName="RT_Bullet_FireBreath">
 		<defName>RT_FireBreath</defName>
-		<thingClass>RT_Core.LaserBeam</thingClass>
+		<thingClass>VEF.Weapons.LaserBeam</thingClass>
 		<label>Fire Breath</label>
 		<altitudeLayer>MoteOverhead</altitudeLayer>
 		<graphicData>
@@ -189,9 +189,9 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="RT_Bullet_FireBeam" Class="RT_Core.LaserBeamDef">
+	<ThingDef ParentName="RT_Bullet_FireBeam">
 		<defName>RT_OmegaBeam</defName>
-		<thingClass>RT_Core.LaserBeam</thingClass>
+		<thingClass>VEF.Weapons.LaserBeam</thingClass>
 		<label>Firebeam</label>
 		<altitudeLayer>MoteOverhead</altitudeLayer>
 		<graphicData>
@@ -218,9 +218,9 @@
 
 	<!-- Queen Abilities-->
 
-	<ThingDef ParentName="RT_Bullet_FireBeam" Class="RT_Core.LaserBeamDef">
+	<ThingDef ParentName="RT_Bullet_FireBeam">
 		<defName>RT_QueenBeam</defName>
-		<thingClass>RT_Core.LaserBeam</thingClass>
+		<thingClass>VEF.Weapons.LaserBeam</thingClass>
 		<label>Firebeam</label>
 		<altitudeLayer>MoteOverhead</altitudeLayer>
 		<graphicData>

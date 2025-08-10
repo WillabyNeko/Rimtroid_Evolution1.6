@@ -299,15 +299,15 @@
 
     <!--===============Accelerated Division===============-->
 
-  <HediffDef ParentName="DiseaseBase">
-    <defName>RT_AcceleratedDivision</defName>
-    <label>accelerated division</label>
-    <description>A genetic hiccup that causes mitosis cycles to occur more frequently than usual. This condition is seen as a double-edged sword; metroids age roughly twice as fast and have an accelerated healing factor, but the amount of energy they burn per day is drastically higher than normal, making them even more demanding on food sources.</description>
-    <stages>
-      <li>
-	      <hungerRateFactorOffset>1</hungerRateFactorOffset>
-        <naturalHealingFactor>2</naturalHealingFactor>
-      </li>
-    </stages>
-  </HediffDef>
+	<HediffDef ParentName="DiseaseBase">
+		<defName>RT_AcceleratedDivision</defName>
+		<label>accelerated division</label>
+		<description>A genetic hiccup that causes mitosis cycles to occur more frequently than usual. This condition is seen as a double-edged sword; metroids age roughly twice as fast and have an accelerated healing factor, but the amount of energy they burn per day is drastically higher than normal, making them even more demanding on food sources.</description>
+		<stages>
+			<li>
+				<hungerRateFactorOffset>1</hungerRateFactorOffset>
+				<naturalHealingFactor>2</naturalHealingFactor>
+			</li>
+		</stages>
+	</HediffDef>
 </Defs>

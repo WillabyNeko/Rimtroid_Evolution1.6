@@ -6,7 +6,7 @@
   <!--Cryolauncher shell-->
 
 
-  <ThingDef ParentName="BaseBullet">
+  <!--<ThingDef ParentName="BaseBullet">
     <defName>RT_CryoExplosive</defName>
     <label>cryogenic shell</label>
     <graphicData>
@@ -19,19 +19,19 @@
     <projectile>
       <speed>40</speed>
       <damageDef>RT_CryoDamageShell</damageDef>
-      <damageAmountBase>14</damageAmountBase>
-      <!-- Use default damage from explosion def -->
+      <damageAmountBase>14</damageAmountBase>-->
+      <!-- Use default damage from explosion def --><!--
       <explosionRadius>3.2</explosionRadius>
       <ai_IsIncendiary>true</ai_IsIncendiary>
       <arcHeightFactor>0.2</arcHeightFactor>
       <shadowSize>0.6</shadowSize>
       <soundExplode>Explosion_Smoke</soundExplode>
     </projectile>
-  </ThingDef>
+  </ThingDef>-->
 
   <!--Cryorifle bullet-->
 
-  <ThingDef ParentName="BaseBullet">
+  <!--<ThingDef ParentName="BaseBullet">
     <defName>RT_CryoBullet</defName>
     <label>cryo bullet</label>
     <graphicData>
@@ -46,7 +46,7 @@
       <damageAmountBase>20</damageAmountBase>
       <armorPenetrationBase>0.2</armorPenetrationBase>
     </projectile>
-  </ThingDef>
+  </ThingDef>-->
 
   <!--Hypodermic bullet-->
 

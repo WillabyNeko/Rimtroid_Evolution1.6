@@ -1,9 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!--===============Acid Defs===============-->
+  <!--===============Acid Defs===============--> 
 
-	<HediffDef ParentName="InjuryBase">
+	<!-- Replaced by VEF equivalents -->
+  
+	<!--<HediffDef ParentName="InjuryBase">
 		<defName>RT_AcidBurn</defName>
 		<label>acid burn</label>
 		<labelNoun>an acid burn</labelNoun>
@@ -83,7 +85,7 @@
 			</li>
 
 		</stages>
-	</HediffDef>
+	</HediffDef>-->
 
   <!--===============Misc Metroid Defs===============-->
 

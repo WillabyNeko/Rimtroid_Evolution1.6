@@ -62,7 +62,6 @@ The inherent features of the crystals used also allow it to produce a small cons
         <basePowerConsumption>-100</basePowerConsumption>
         <transmitsPower>true</transmitsPower>
       </li>
-      <li Class="CompProperties_Breakdownable"/>
     </comps>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Power</designationCategory>

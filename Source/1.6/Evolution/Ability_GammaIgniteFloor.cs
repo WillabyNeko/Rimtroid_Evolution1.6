@@ -6,10 +6,10 @@ using RimWorld;
 using UnityEngine;
 using Verse.AI;
 using RT_Core;
-
+/*
 namespace RT_Rimtroid
 {
-    class Ability_GammaIgnite : Ability_Base
+    class Ability_GammaIgnite : Ability
     {
         public Ability_GammaIgnite(Pawn pawn) : base(pawn)
         {
@@ -29,4 +29,4 @@ namespace RT_Rimtroid
             return base.Activate(target, dest);
         }
     }
-}
+}*/

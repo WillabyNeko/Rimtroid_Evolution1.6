@@ -5,7 +5,7 @@ using System.Linq;
 using Verse;
 using System.Text;
 using System.Threading.Tasks;
-
+/*
 namespace RT_Rimtroid
 {
 	public static class ElectricGenExplosion
@@ -87,4 +87,4 @@ namespace RT_Rimtroid
 			}
 		}
 	}
-}
+}*/

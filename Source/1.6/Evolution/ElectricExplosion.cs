@@ -5,7 +5,7 @@ using System.Linq;
 using UnityEngine;
 using Verse;
 using Verse.Sound;
-
+/*
 namespace RT_Rimtroid
 {
 	public class ElectricExplosion : Thing
@@ -345,4 +345,4 @@ namespace RT_Rimtroid
 			return this.applyDamageToExplosionCellsNeighbors && this.addedCellsAffectedOnlyByDamage.Contains(c);
 		}
 	}
-}
+}*/

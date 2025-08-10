@@ -11,7 +11,7 @@ using Verse.AI;
 
 namespace RT_Core
 {
-    public class Ability_AbsorbEnergy : Ability_Base
+    public class Ability_AbsorbEnergy : Ability
     {
         public Ability_AbsorbEnergy(Pawn pawn) : base(pawn) { }
         public Ability_AbsorbEnergy(Pawn pawn, AbilityDef def) : base(pawn, def) { }

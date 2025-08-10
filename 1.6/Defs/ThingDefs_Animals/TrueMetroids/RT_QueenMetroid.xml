@@ -25,7 +25,7 @@
                 <ComfyTemperatureMax>300</ComfyTemperatureMax>
                 <MeatAmount>0</MeatAmount>
                 <PainShockThreshold>1</PainShockThreshold>
-				<wildness>1</wildness>
+				<Wildness>1</Wildness>
             </statBases>
             <uiIconScale>1.35</uiIconScale>
 

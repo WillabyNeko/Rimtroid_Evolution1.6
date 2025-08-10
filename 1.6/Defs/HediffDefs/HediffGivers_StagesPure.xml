@@ -8,7 +8,7 @@
 		<hediffGivers>
 			<li Class="RT_Core.HediffGiver_AfterPeriod"> <!--this is only needed if the pawn evolves. If it does not, the whole hediffGiver can be removed.-->
 				<!--<maxReroll>1</maxReroll>--><!-- determines how many times the chance field can fail before it's not attempted anymore. Leave out for infinite times-->
-				<chance>1</chance><!-- the chance that evolution happens. 1=100%. If this fails, it will try again based on the number withing <yearsInterval>-->
+				<chance>1</chance><!-- the chance that evolution happens. 1=100%. If this fails, it will try again based on the number within <yearsInterval>-->
 				<yearsInterval>1</yearsInterval><!--how many years until the code tries for an evolution again. Can have a year range as well-->
 				<hediffsToPreventGrowth><!--if any of the hediffs below are present, it will not evolve.-->
 					<li>RT_StuntedGrowthBad</li>
@@ -28,8 +28,8 @@
 						<hediffWhiteList><!--Whitelist that tells what hediffs can pass. THIS MAKES THE PREVIOUS WHITELIST FIELDS VOID AND USELESS; all hediffs to be accepted go directly here-->
 							<li>RT_AcceleratedAgingBantee</li>
 							<li>RT_ImmunityAcceleratorHediff</li>
-        			<li>RT_CryoadapterHediff</li>
-        			<li>RT_NutrientRegulatorHediff</li>
+							<li>RT_CryoadapterHediff</li>
+							<li>RT_NutrientRegulatorHediff</li>
 							<li>RT_AcceleratedDivision</li>
 							<li>RT_CellularDecay</li>
 						</hediffWhiteList>
@@ -66,8 +66,8 @@
 						<hediffWhiteList>
 							<li>RT_AcceleratedAgingLarvae</li>
 							<li>RT_ImmunityAcceleratorHediff</li>
-        			<li>RT_CryoadapterHediff</li>
-        			<li>RT_NutrientRegulatorHediff</li>
+							<li>RT_CryoadapterHediff</li>
+							<li>RT_NutrientRegulatorHediff</li>
 							<li>RT_AcceleratedDivision</li>
 							<li>RT_CellularDecay</li>
 						</hediffWhiteList>
@@ -104,8 +104,8 @@
 						<hediffWhiteList>
 							<li>RT_AcceleratedAgingAlpha</li>
 							<li>RT_ImmunityAcceleratorHediff</li>
-        			<li>RT_CryoadapterHediff</li>
-        			<li>RT_NutrientRegulatorHediff</li>
+							<li>RT_CryoadapterHediff</li>
+							<li>RT_NutrientRegulatorHediff</li>
 							<li>RT_AcceleratedDivision</li>
 							<li>RT_CellularDecay</li>
 						</hediffWhiteList>
@@ -158,8 +158,8 @@
 						<hediffWhiteList>
 							<li>RT_AcceleratedAgingGamma</li>
 							<li>RT_ImmunityAcceleratorHediff</li>
-        			<li>RT_CryoadapterHediff</li>
-        			<li>RT_NutrientRegulatorHediff</li>
+							<li>RT_CryoadapterHediff</li>
+							<li>RT_NutrientRegulatorHediff</li>
 							<li>RT_AcceleratedDivision</li>
 							<li>RT_CellularDecay</li>
 						</hediffWhiteList>
@@ -195,14 +195,14 @@
 						<hediffWhiteList>
 							<li>RT_AcceleratedAgingOmega</li>
 							<li>RT_ImmunityAcceleratorHediff</li>
-        			<li>RT_CryoadapterHediff</li>
-        			<li>RT_NutrientRegulatorHediff</li>
+							<li>RT_CryoadapterHediff</li>
+							<li>RT_NutrientRegulatorHediff</li>
 							<li>RT_AcceleratedDivision</li>
 							<li>RT_CellularDecay</li>
 						</hediffWhiteList>
 					</li>
 				</possibleEvolutionPaths>
-</li>
+			</li>
 		</hediffGivers>
 	</HediffGiverSetDef>
 
@@ -234,7 +234,7 @@
 						</hediffWhiteList>
 					</li>
 				</possibleEvolutionPaths>
-</li>
+			</li>
 		</hediffGivers>
 	</HediffGiverSetDef>
 

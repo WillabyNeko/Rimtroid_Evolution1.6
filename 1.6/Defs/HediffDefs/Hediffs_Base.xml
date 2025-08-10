@@ -4,84 +4,84 @@
  
 	<HediffDef Name="RT_GoodHediff" Abstract="True">
 		<hediffClass>HediffWithComps</hediffClass>
-    <defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
-    <isBad>false</isBad>
-	<makesAlert>false</makesAlert>
-	<makesSickThought>false</makesSickThought>
+		<defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+		<isBad>false</isBad>
+		<makesAlert>false</makesAlert>
+		<makesSickThought>false</makesSickThought>
 	</HediffDef>
  
  	<HediffDef Name="RT_BadHediff" Abstract="True">
 		<hediffClass>HediffWithComps</hediffClass>
 		<defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
-    <isBad>true</isBad>
-	<makesAlert>false</makesAlert>
-	<makesSickThought>false</makesSickThought>
+		<isBad>true</isBad>
+		<makesAlert>false</makesAlert>
+		<makesSickThought>false</makesSickThought>
 	</HediffDef>
 
   <!--===============Stunted Metroid Overview===============-->
     <HediffDef ParentName="RT_MetroidStagesBad">
-    <defName>RT_StuntedGrowthOverview</defName>
-    <label>Stunted</label>
-    <labelNoun>a stunted Metroid</labelNoun>
-    <description>Stunted metroids are metroids that are 'locked' into their current form, and prevented from growing into further stages. This is generally used for taking advantage of the unique properties a metroid stage may have, such as the ease of care for a Bantee, or the profitability of a Gamma. However, stunting can also occur as a health defect in the wild.\n\nA stunted metroid may have a significant increase in value - or vice versa - depending on the metroid stage.</description>
-    <stages>
-      <li>
-	  		<becomeVisible>true</becomeVisible>
-			  <hungerRateFactorOffset>1.5</hungerRateFactorOffset>
-		  </li>
-    </stages>
-</HediffDef>
+		<defName>RT_StuntedGrowthOverview</defName>
+		<label>Stunted</label>
+		<labelNoun>a stunted Metroid</labelNoun>
+		<description>Stunted metroids are metroids that are 'locked' into their current form, and prevented from growing into further stages. This is generally used for taking advantage of the unique properties a metroid stage may have, such as the ease of care for a Bantee, or the profitability of a Gamma. However, stunting can also occur as a health defect in the wild.\n\nA stunted metroid may have a significant increase in value - or vice versa - depending on the metroid stage.</description>
+		<stages>
+			<li>
+				<becomeVisible>true</becomeVisible>
+				<hungerRateFactorOffset>1.5</hungerRateFactorOffset>
+			</li>
+		</stages>
+	</HediffDef>
 
 	<!--===============Stunted Devalued Metroid - Larvae and Alpha===============-->
 
-  <HediffDef ParentName="RT_MetroidStagesBad">
-    <defName>RT_StuntedGrowthBad</defName>
-    <label>Stunted</label>
-    <labelNoun>a stunted Metroid</labelNoun>
-    <description>A Metroid that is incapable of evolving into further forms. While this is often done intentionally to 'lock' a metroid into a desired lifestage, stunting may also occur as a genetic defect. Stunted metroids have a decreased appetite (as they no longer need to grow), but eventual long-term genetic complications significantly decrease their overall life expectancy.\n\nThis metroid's value has decreased signiicantly, due to being locked out of more useful potential mutations.</description>
-    <stages>
-      <li>
-	  		<becomeVisible>true</becomeVisible>
-			  <hungerRateFactorOffset>1.5</hungerRateFactorOffset>
-			  <statFactors>
-      		<MarketValue>0.20</MarketValue>
-    		</statFactors>
-		  </li>
-    </stages>
-</HediffDef>
+	<HediffDef ParentName="RT_MetroidStagesBad">
+		<defName>RT_StuntedGrowthBad</defName>
+		<label>Stunted</label>
+		<labelNoun>a stunted Metroid</labelNoun>
+		<description>A Metroid that is incapable of evolving into further forms. While this is often done intentionally to 'lock' a metroid into a desired lifestage, stunting may also occur as a genetic defect. Stunted metroids have a decreased appetite (as they no longer need to grow), but eventual long-term genetic complications significantly decrease their overall life expectancy.\n\nThis metroid's value has decreased signiicantly, due to being locked out of more useful potential mutations.</description>
+		<stages>
+			<li>
+				<becomeVisible>true</becomeVisible>
+				<hungerRateFactorOffset>1.5</hungerRateFactorOffset>
+				<statFactors>
+					<MarketValue>0.20</MarketValue>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
 
 	<!--===============Stunted Valuable Metroid - Bantee and Gamma Metroids===============-->
 
-  <HediffDef ParentName="RT_MetroidStagesBad">
-    <defName>RT_StuntedGrowthGood</defName>
-    <label>Stunted</label>
-    <labelNoun>a stunted Metroid</labelNoun>
-    <description>A Metroid that is incapable of evolving into further forms. While this is often done intentionally to 'lock' a metroid into a desired lifestage, stunting may also occur as a genetic defect. Stunted metroids have a decreased appetite (as they no longer need to grow), but eventual long-term genetic complications significantly decrease their overall life expectancy.\n\nThis metroid's value has increased significantly, due to the demand in it's current form.</description>
-    <stages>
-      <li>
-	 		  <becomeVisible>true</becomeVisible>
-		    <hungerRateFactorOffset>1.5</hungerRateFactorOffset>
-		    <statFactors>
-    			<MarketValue>2.5</MarketValue>
-    	  </statFactors>
-		  </li>
-    </stages>
-</HediffDef>
+	<HediffDef ParentName="RT_MetroidStagesBad">
+		<defName>RT_StuntedGrowthGood</defName>
+		<label>Stunted</label>
+		<labelNoun>a stunted Metroid</labelNoun>
+		<description>A Metroid that is incapable of evolving into further forms. While this is often done intentionally to 'lock' a metroid into a desired lifestage, stunting may also occur as a genetic defect. Stunted metroids have a decreased appetite (as they no longer need to grow), but eventual long-term genetic complications significantly decrease their overall life expectancy.\n\nThis metroid's value has increased significantly, due to the demand in it's current form.</description>
+		<stages>
+			<li>
+				<becomeVisible>true</becomeVisible>
+				<hungerRateFactorOffset>1.5</hungerRateFactorOffset>
+				<statFactors>
+					<MarketValue>2.5</MarketValue>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
 
 	<!--===============Stunted Metroid - Zeta and Omega Metroids===============-->
 
-  <HediffDef ParentName="RT_MetroidStagesBad">
-    <defName>RT_StuntedGrowthNeutral</defName>
-    <label>Stunted</label>
-    <labelNoun>a stunted Metroid</labelNoun>
-    <description>A Metroid that is incapable of evolving into further forms. While this is often done intentionally to 'lock' a metroid into a desired lifestage, stunting may also occur as a genetic defect. Stunted metroids have a decreased appetite (as they no longer need to grow), but eventual long-term genetic complications significantly decrease their overall life expectancy.\n\nDue to their long evolution spans and middle-ground desirability, this metroid's market value is unaltered.</description>
-    <stages>
-      <li>
-	  	  <becomeVisible>true</becomeVisible>
-			  <hungerRateFactorOffset>1.5</hungerRateFactorOffset>
-		  </li>
-    </stages>
-</HediffDef>
+	<HediffDef ParentName="RT_MetroidStagesBad">
+		<defName>RT_StuntedGrowthNeutral</defName>
+		<label>Stunted</label>
+		<labelNoun>a stunted Metroid</labelNoun>
+		<description>A Metroid that is incapable of evolving into further forms. While this is often done intentionally to 'lock' a metroid into a desired lifestage, stunting may also occur as a genetic defect. Stunted metroids have a decreased appetite (as they no longer need to grow), but eventual long-term genetic complications significantly decrease their overall life expectancy.\n\nDue to their long evolution spans and middle-ground desirability, this metroid's market value is unaltered.</description>
+		<stages>
+			<li>
+				<becomeVisible>true</becomeVisible>
+				<hungerRateFactorOffset>1.5</hungerRateFactorOffset>
+			</li>
+		</stages>
+	</HediffDef>
 
 	<!--===============Life Drain===============-->
 

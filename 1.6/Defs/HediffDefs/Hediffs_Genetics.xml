@@ -48,10 +48,10 @@
 
 	<HediffDef>
 		<defName>RT_GrowthSuspenderHediff</defName>
-		<descriptionHyperlinks>
+		<!--<descriptionHyperlinks>
 			<ThingDef>RT_GrowthSuspender</ThingDef>
 			<HediffDef>RT_GeneticDefectsOverview</HediffDef>
-		</descriptionHyperlinks>
+		</descriptionHyperlinks>-->
 		<label>Growth Suspension</label>
 		<labelNoun>biological growth suspension</labelNoun>
 		<defaultLabelColor>(233,129,69)</defaultLabelColor>
@@ -83,10 +83,10 @@
 	<HediffDef>
 		<defName>RT_CryoadapterHediff</defName>
 		<hediffClass>Hediff</hediffClass>
-		<descriptionHyperlinks>
+		<!--<descriptionHyperlinks>
 			<ThingDef>RT_Cryoadapter</ThingDef>
 			<HediffDef>RT_GeneticDefectsOverview</HediffDef>
-		</descriptionHyperlinks>
+		</descriptionHyperlinks>-->
 		<label>Endothermic Adaption</label>
 		<labelNoun>endothermic adaption</labelNoun>
 		<defaultLabelColor>(178,102,255)</defaultLabelColor>
@@ -127,10 +127,10 @@
 	<HediffDef>
 		<defName>RT_NutrientRegulatorHediff</defName>
 		<hediffClass>Hediff</hediffClass>
-		<descriptionHyperlinks>
+		<!--<descriptionHyperlinks>
 			<ThingDef>RT_NutrientRegulator</ThingDef>
 			<HediffDef>RT_GeneticDefectsOverview</HediffDef>
-		</descriptionHyperlinks>
+		</descriptionHyperlinks>-->
 		<label>Nutrient Regulation</label>
 		<labelNoun>nutrient regulation</labelNoun>
 		<defaultLabelColor>(178,102,255)</defaultLabelColor>
@@ -169,10 +169,10 @@
 	<HediffDef>
 		<defName>RT_ImmunityAcceleratorHediff</defName>
 		<hediffClass>Hediff</hediffClass>
-		<descriptionHyperlinks>
+		<!--<descriptionHyperlinks>
 			<ThingDef>RT_ImmunityAccelerator</ThingDef>
 			<HediffDef>RT_GeneticDefectsOverview</HediffDef>
-		</descriptionHyperlinks>
+		</descriptionHyperlinks>-->
 		<label>Systemic Fortification</label>
 		<labelNoun>systemic fortification</labelNoun>
 		<defaultLabelColor>(178,102,255)</defaultLabelColor>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <HediffDef Name="RT_MetroidStages" ParentName="RT_GoodHediff" Abstract="True">
-    <chronic>true</chronic>
-  </HediffDef>
+	<HediffDef Name="RT_MetroidStages" ParentName="RT_GoodHediff" Abstract="True">
+		<chronic>true</chronic>
+	</HediffDef>
   
-    <HediffDef Name="RT_MetroidStagesBad" ParentName="RT_BadHediff" Abstract="True">
-    <chronic>true</chronic>
-  </HediffDef>
+	<HediffDef Name="RT_MetroidStagesBad" ParentName="RT_BadHediff" Abstract="True">
+		<chronic>true</chronic>
+	</HediffDef>
 <!--===============
 Quick notes:
 Under <PossibleEvolutionPaths>, make surethe <Age> tag is one year ABOVE the maximum
@@ -58,14 +58,14 @@ to be made to allow hediff effects from other mods.
     </stages>
   </HediffDef>
 
-  <Metamorphosis.MetroidWhitelistDef>
+  <!--<Metamorphosis.MetroidWhitelistDef>
     <defName>RT_BanteeToLarvaeWhitelist</defName>
       <whitelist>
         <li>RT_AcceleratedAgingBantee</li>
         <li>RT_CryoadapterHediff</li>
         <li>RT_NutrientRegulatorHediff</li>
       </whitelist>
-  </Metamorphosis.MetroidWhitelistDef>
+  </Metamorphosis.MetroidWhitelistDef>-->
 
 <!--===============Metroid Larvae===============-->
 
@@ -106,14 +106,14 @@ to be made to allow hediff effects from other mods.
     </stages>
   </HediffDef>
 
-  <Metamorphosis.MetroidWhitelistDef>
+  <!--<Metamorphosis.MetroidWhitelistDef>
     <defName>RT_LarvaeToAlphaWhitelist</defName>
       <whitelist>
         <li>RT_AcceleratedAgingLarvae</li>
         <li>RT_CryoadapterHediff</li>
         <li>RT_NutrientRegulatorHediff</li>
       </whitelist>
-  </Metamorphosis.MetroidWhitelistDef>
+  </Metamorphosis.MetroidWhitelistDef>-->
   
 <!--===============Alpha Metroid===============-->
 
@@ -158,14 +158,14 @@ to be made to allow hediff effects from other mods.
     </stages>
   </HediffDef>
 
- <Metamorphosis.MetroidWhitelistDef>
+ <!--<Metamorphosis.MetroidWhitelistDef>
     <defName>RT_AlphatoGammaWhitelist</defName>
       <whitelist>
         <li>RT_AcceleratedAgingAlpha</li>
         <li>RT_CryoadapterHediff</li>
         <li>RT_NutrientRegulatorHediff</li>
       </whitelist>
-  </Metamorphosis.MetroidWhitelistDef>
+  </Metamorphosis.MetroidWhitelistDef>-->
 
 <!--===============Gamma Metroid===============-->
 
@@ -214,14 +214,14 @@ to be made to allow hediff effects from other mods.
     </stages>
   </HediffDef>
 
- <Metamorphosis.MetroidWhitelistDef>
+ <!--<Metamorphosis.MetroidWhitelistDef>
     <defName>RT_GammaToZetaWhitelist</defName>
       <whitelist>
         <li>RT_AcceleratedAgingGamma</li>
         <li>RT_CryoadapterHediff</li>
         <li>RT_NutrientRegulatorHediff</li>
       </whitelist>
-  </Metamorphosis.MetroidWhitelistDef>
+  </Metamorphosis.MetroidWhitelistDef>-->
 
   <!--===============Zeta Metroid===============-->
 
@@ -274,14 +274,14 @@ to be made to allow hediff effects from other mods.
     </stages>
   </HediffDef>
 
- <Metamorphosis.MetroidWhitelistDef>
+ <!--<Metamorphosis.MetroidWhitelistDef>
     <defName>RT_ZetaToOmegaWhitelist</defName>
       <whitelist>
         <li>RT_AcceleratedAgingZeta</li>
         <li>RT_CryoadapterHediff</li>
         <li>RT_NutrientRegulatorHediff</li>
       </whitelist>
-  </Metamorphosis.MetroidWhitelistDef>
+  </Metamorphosis.MetroidWhitelistDef>-->
 
 
 <!--===============Omega Metroid===============-->

@@ -34,7 +34,7 @@
 		</researchPrerequisites>
 		<ingestible>
 			<drugCategory>Medical</drugCategory>
-      <foodType>Processed</foodType>
+			<foodType>Processed</foodType>
 			<baseIngestTicks>300</baseIngestTicks>
 			<ingestSound>Ingest_Inject</ingestSound>
 			<ingestHoldOffsetStanding>
@@ -45,28 +45,28 @@
 			<ingestCommandString>Inject nutrient solution</ingestCommandString>
 			<ingestReportString>Injecting nutrient solution.</ingestReportString>
 			<chairSearchRadius>0</chairSearchRadius>
-      <outcomeDoers>
+			<outcomeDoers>
 				<li Class="RT_Core.Ingestion_MultipleHediffs">
 					<hediffDef_BanteeMetroid>RT_NutrientInjectionHediff</hediffDef_BanteeMetroid>
-          <hediffDef_MetroidLarvae>RT_NutrientInjectionHediff</hediffDef_MetroidLarvae>
-          <hediffDef_AlphaMetroid>RT_NutrientInjectionHediff</hediffDef_AlphaMetroid>
-          <hediffDef_GammaMetroid>RT_NutrientInjectionHediff</hediffDef_GammaMetroid>
-          <hediffDef_ZetaMetroid>RT_NutrientInjectionHediff</hediffDef_ZetaMetroid>
-          <hediffDef_OmegaMetroid>RT_NutrientInjectionHediff</hediffDef_OmegaMetroid>
-          <hediffDef_QueenMetroid>RT_NutrientInjectionHediff</hediffDef_QueenMetroid>
+					<hediffDef_MetroidLarvae>RT_NutrientInjectionHediff</hediffDef_MetroidLarvae>
+					<hediffDef_AlphaMetroid>RT_NutrientInjectionHediff</hediffDef_AlphaMetroid>
+					<hediffDef_GammaMetroid>RT_NutrientInjectionHediff</hediffDef_GammaMetroid>
+					<hediffDef_ZetaMetroid>RT_NutrientInjectionHediff</hediffDef_ZetaMetroid>
+					<hediffDef_OmegaMetroid>RT_NutrientInjectionHediff</hediffDef_OmegaMetroid>
+					<hediffDef_QueenMetroid>RT_NutrientInjectionHediff</hediffDef_QueenMetroid>
 					<hediffDef_LivingPawn>RT_AeionicPoisoning</hediffDef_LivingPawn>
 					<severity>0.8</severity>
 				</li>
-      </outcomeDoers>
+			</outcomeDoers>
 		</ingestible>
 		<costList>
 			<Steel>4</Steel>
 			<RT_ProtusCell>3</RT_ProtusCell>
 		</costList>
 		<recipeMaker>
-      <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
-      <workSkill>Intellectual</workSkill>
-      <workAmount>350</workAmount>
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+		<workSkill>Intellectual</workSkill>
+		<workAmount>350</workAmount>
 			<productCount>1</productCount>
 			<targetCountAdjustment>2</targetCountAdjustment>
 			<bulkRecipeCount>4</bulkRecipeCount>

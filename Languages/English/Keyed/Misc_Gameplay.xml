@@ -45,7 +45,7 @@
 	<RT_SiegeRole>Siege Metroid</RT_SiegeRole>
 	<RT_SentinelRole>Sentinel Metroid</RT_SentinelRole>
 	<RT_ResourceRole>Resource Production</RT_ResourceRole>
-	<RTE_BreedingRole>Metroid Breeding</RT_BreedingRole>
+	<RT_BreedingRole>Metroid Breeding</RT_BreedingRole>
 	<RT_PetRole>Exotic Pet</RT_PetRole>
 	<RT_GeneticBaseRole>Genetic Candidate</RT_GeneticBaseRole>
 	<RT_UtilityRole>Utility</RT_UtilityRole>

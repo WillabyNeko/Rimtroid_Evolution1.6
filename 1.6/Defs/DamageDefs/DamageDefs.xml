@@ -10,10 +10,10 @@
 		<workerClass>DamageWorker_AddInjury</workerClass>
 		<externalViolence>true</externalViolence>
 		<deathMessage>{0} has been corroded to death.</deathMessage>
-		<hediff>RT_AcidBurn</hediff>
+		<hediff>VEF_AcidBurn</hediff>
 		<additionalHediffs>
 			<li>
-				<hediff>RT_AcidBuildup</hediff>
+				<hediff>VEF_AcidBuildup</hediff>
 				<severityPerDamageDealt>0.01</severityPerDamageDealt>
 			</li>
 		</additionalHediffs>
@@ -29,7 +29,7 @@
 		<workerClass>DamageWorker_AddInjury</workerClass>
 		<externalViolence>true</externalViolence>
 		<deathMessage>{0} has been corroded to death.</deathMessage>
-		<hediff>RT_AcidBurn</hediff>
+		<hediff>VEF_AcidBurn</hediff>
 
 		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
 		<armorCategory>Heat</armorCategory>

@@ -5,10 +5,10 @@ using Verse;
 using RimWorld;
 using UnityEngine;
 using Verse.AI;
-
+/*
 namespace RT_Rimtroid
 {
-    public class Ability_MetroidBomb : RT_Core.Ability_Base
+    public class Ability_MetroidBomb : Ability
     {
         public Ability_MetroidBomb(Pawn pawn) : base(pawn) { }
         public Ability_MetroidBomb(Pawn pawn, AbilityDef def) : base(pawn, def) { }
@@ -31,4 +31,4 @@ namespace RT_Rimtroid
             return base.Activate(target, dest);
         }
     }
-}
+}*/

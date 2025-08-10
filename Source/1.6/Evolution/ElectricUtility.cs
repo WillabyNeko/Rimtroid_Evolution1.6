@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 using Verse;
-
+/*
 namespace RT_Rimtroid
 {
 	public static class ElectricUtility
@@ -21,4 +21,4 @@ namespace RT_Rimtroid
 		}
 
 	}
-}
+}*/

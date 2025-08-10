@@ -110,11 +110,10 @@ The effects of this operation will last indefinitely, but can be eliminated with
     </graphicData>
     <comps>
       <li Class="CompProperties_Usable">
-        <compClass>RT_Core.CompApplyHediff_InstallImplant</compClass>
         <useJob>UseItem</useJob>
         <useLabel>Begin biological growth suspension</useLabel>
       </li>
-      <li Class="RT_Core.CompProperties_ApplyHediff_UseEffect">
+      <li Class="CompProperties_UseEffectAddHediff">
         <hediffDef>RT_GrowthSuspenderHediff</hediffDef>
       </li>
       <li Class="CompProperties_UseEffect">
@@ -142,11 +141,10 @@ This is a permanent operation; any metroid with this alteration will retain it t
     </graphicData>
     <comps>
       <li Class="CompProperties_Usable">
-        <compClass>RT_Core.CompApplyHediff_InstallImplant</compClass>
         <useJob>UseItem</useJob>
         <useLabel>Begin endothermic adaption</useLabel>
       </li>
-      <li Class="RT_Core.CompProperties_ApplyHediff_UseEffect">
+      <li Class="CompProperties_UseEffectAddHediff">
         <hediffDef>RT_CryoadapterHediff</hediffDef>
       </li>
       <li Class="CompProperties_UseEffect">
@@ -173,11 +171,10 @@ This is a permanent operation; any metroid with this alteration will retain it t
     </graphicData>
     <comps>
       <li Class="CompProperties_Usable">
-        <compClass>RT_Core.CompApplyHediff_InstallImplant</compClass>
         <useJob>UseItem</useJob>
         <useLabel>Begin nutrient regulation</useLabel>
       </li>
-      <li Class="RT_Core.CompProperties_ApplyHediff_UseEffect">
+      <li Class="CompProperties_UseEffectAddHediff">
         <hediffDef>RT_NutrientRegulatorHediff</hediffDef>
       </li>
       <li Class="CompProperties_UseEffect">
@@ -204,11 +201,10 @@ The amount of mechanites administered is only enough to affect smaller, uniform 
     </graphicData>
     <comps>
       <li Class="CompProperties_Usable">
-        <compClass>RT_Core.CompApplyHediff_InstallImplant</compClass>
         <useJob>UseItem</useJob>
         <useLabel>Begin immunity acceleration</useLabel>
       </li>
-      <li Class="RT_Core.CompProperties_ApplyHediff_UseEffect">
+      <li Class="CompProperties_UseEffectAddHediff">
         <hediffDef>RT_ImmunityAcceleratorHediff</hediffDef>
       </li>
       <li Class="CompProperties_UseEffect">

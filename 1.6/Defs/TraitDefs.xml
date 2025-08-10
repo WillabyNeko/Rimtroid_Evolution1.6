@@ -18,12 +18,8 @@
           <!--<painFactor>0</painFactor>-->
         </statFactors>
         <skillGains>
-          <li>
-            <key>Medicine</key>
-            <value>2</value></li>
-          <li>
-            <key>Animals</key>
-            <value>2</value></li>
+			<Medicine>2</Medicine>
+			<Animals>2</Animals>
         </skillGains> <!--Only needed if you want the pawn to have extra skill points with the trait-->
       </li>
     </degreeDatas> 

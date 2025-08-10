@@ -26,7 +26,7 @@ These specific Metroids are "Pure" Metroids, and as such share the same traits, 
 			<ComfyTemperatureMax>160</ComfyTemperatureMax>
 			<MeatAmount>0</MeatAmount>
 			<PainShockThreshold>5</PainShockThreshold>
-			<wildness>1</wildness>
+			<Wildness>1</Wildness>
 		</statBases>
 		<uiIconScale>1.35</uiIconScale>
 

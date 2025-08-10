@@ -2,29 +2,22 @@
 <Defs>
 
 	<JobDef>
-		<defName>RT_AnimalResource</defName>
-		<driverClass>RT_Core.JobDriver_AnimalResource</driverClass>
-		<reportString>gathering animal resource from TargetA.</reportString>
-	</JobDef>  
-
-
-	<JobDef>
 		<defName>RT_EatFromStation</defName>
 		<driverClass>RT_Core.JobDriver_EatFromStation</driverClass>
 		<reportString>feeding from power station.</reportString>
 	</JobDef>  
 	
-	<JobDef>
+	<!--<JobDef>
 		<defName>RT_PlaceAlphaBomb</defName>
 		<driverClass>RT_Rimtroid.JobDriver_PlaceAlphaBomb</driverClass>
 		<reportString>placing a bomb to TargetA.</reportString>
-	</JobDef>
+	</JobDef>-->
 	
-	<JobDef>
+	<!--<JobDef>
 		<defName>RT_GoToQueenToDespawn</defName>
 		<driverClass>RT_Rimtroid.JobDriver_GoToQueenToDespawn</driverClass>
 		<reportString>recalled from TargetA.</reportString>
-	</JobDef>
+	</JobDef>-->
 	<!-- JobDefs for Gamma Metroids to create web structures-->
 
 	<!--<JobDef>

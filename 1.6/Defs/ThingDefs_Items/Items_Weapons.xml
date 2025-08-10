@@ -3,7 +3,7 @@
 
 	<!-- Cryo Rifle -->
 
-  <ThingDef ParentName="BaseHumanMakeableGun">
+  <!--<ThingDef ParentName="BaseHumanMakeableGun">
     <defName>RT_CryoRifle</defName>
     <label>Cryo Rifle</label>
     <description>A specialized cryotech assault rifle, infamous for it's cruelty. The supercooled, explosive projectiles it fires pierce flesh as easily as any other bullet, then detonate within the body as they lose their icy coating. The constant agony they cause is quite potent, and quite illegal in many societies.</description>
@@ -67,11 +67,11 @@
     <researchPrerequisites>
       <li>RT_MetroidDefenses</li>
     </researchPrerequisites>
-  </ThingDef>
+  </ThingDef>-->
 
 	<!-- Cryo Launcher -->
 
-  <ThingDef ParentName="BaseHumanMakeableGun">
+  <!--<ThingDef ParentName="BaseHumanMakeableGun">
     <defName>RT_CryoLauncher</defName>
     <label>Cryo Launcher</label>
     <description>A grenade launcher that has been modified to fire an explosive cryogenic shell. Designed to rapidly drop temperatures in a small radius, rather than inflicting damage.</description>
@@ -146,7 +146,7 @@
       <li>RT_MetroidDefenses</li>
       <li>MicroelectronicsBasics</li>
     </researchPrerequisites>
-  </ThingDef>
+  </ThingDef>-->
 
 	<!-- Dart Rifle -->
   

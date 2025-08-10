@@ -13,7 +13,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Special/ElectricHumming</clipFolderPath>
+            <clipPath>Special/ElectricHumming</clipPath>
           </li>
         </grains>      
         <volumeRange>61~61</volumeRange>      

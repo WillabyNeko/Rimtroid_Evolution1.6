@@ -23,7 +23,7 @@
 			<ComfyTemperatureMin>14</ComfyTemperatureMin>
 			<ComfyTemperatureMax>160</ComfyTemperatureMax>
 			<MeatAmount>0</MeatAmount>
-			<wildness>0.7</wildness>
+			<Wildness>0.7</Wildness>
 		</statBases>
 		<uiIconScale>1.35</uiIconScale>
 

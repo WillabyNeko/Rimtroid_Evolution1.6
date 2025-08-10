@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<WorkGiverDef>
+	<!--<WorkGiverDef>
 		<defName>RT_AnimalResource</defName>
 		<label>gather animal resource</label>
 		<giverClass>RT_Core.WorkGiver_AnimalResource</giverClass>
@@ -12,6 +12,6 @@
 		<requiredCapacities>
 		  <li>Manipulation</li>
 		</requiredCapacities>
-    </WorkGiverDef>
+    </WorkGiverDef>-->
 
 </Defs>

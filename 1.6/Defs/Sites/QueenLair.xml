@@ -10,7 +10,7 @@
     </tags>
   </SitePartDef>
 
-  <GenStepDef>
+  <!--<GenStepDef>
     <defName>RT_QueenLair</defName>
     <linkWithSite>RT_QueenLair</linkWithSite>
     <order>450</order>
@@ -27,6 +27,6 @@
 				<raidPoints>1000~2000</raidPoints>
 			</li>
 		</modExtensions>
-  </GenStepDef>
+  </GenStepDef>-->
 
 </Defs>

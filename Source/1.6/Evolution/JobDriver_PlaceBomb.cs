@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Verse;
 using Verse.AI;
-
+/*
 namespace RT_Rimtroid
 {
 	public class JobDriver_PlaceAlphaBomb : JobDriver
@@ -46,4 +46,4 @@ namespace RT_Rimtroid
 			Scribe_Values.Look(ref placingWorkDone, "placingWorkDone");
         }
     }
-}
+}*/

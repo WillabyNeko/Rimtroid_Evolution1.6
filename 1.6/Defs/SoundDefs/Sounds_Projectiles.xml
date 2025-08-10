@@ -11,7 +11,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Projectile/ElectricBolt</clipFolderPath>
+						<clipPath>Projectile/ElectricBolt</clipPath>
 					</li>
 				</grains>
 
@@ -38,7 +38,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Shockwave</clipFolderPath>
+						<clipPath>Shockwave</clipPath>
 					</li>
 				</grains>
 
@@ -65,7 +65,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Projectile/RT_Firebolt</clipFolderPath>
+						<clipPath>Projectile/Firebolt</clipPath>
 					</li>
 				</grains>
 
@@ -92,7 +92,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Projectile/RT_FireBreath</clipFolderPath>
+						<clipPath>Projectile/Firebreath</clipPath>
 					</li>
 				</grains>
 
@@ -119,7 +119,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Projectile/AcidBolt</clipFolderPath>
+						<clipPath>Projectile/AcidBolt</clipPath>
 					</li>
 				</grains>
 
@@ -144,7 +144,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Explosions/AcidExplosion</clipFolderPath>
+						<clipPath>Explosions/AcidExplosion</clipPath>
 					</li>
 				</grains>
 
@@ -171,7 +171,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Projectile/Firebeam</clipFolderPath>
+						<clipPath>Projectile/Firebeam</clipPath>
 					</li>
 				</grains>
 
@@ -198,7 +198,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Projectile/ElectricBeam</clipFolderPath>
+						<clipPath>Projectile/ElectricBeam</clipPath>
 					</li>
 				</grains>
 
