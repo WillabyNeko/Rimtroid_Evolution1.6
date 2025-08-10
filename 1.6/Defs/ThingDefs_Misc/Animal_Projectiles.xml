@@ -53,10 +53,10 @@
 			<soundExplode>RT_SoundElectricBolt</soundExplode>
 		</projectile>
 		<beamWidth>2</beamWidth>
-		<fireWidth>0</fireWidth>
+		<!--<fireWidth>0</fireWidth>
 		<spawnFire>false</spawnFire>
 		<dontSpawnFireOnCaster>true</dontSpawnFireOnCaster>
-		<fireDistanceFromCaster>2</fireDistanceFromCaster>
+		<fireDistanceFromCaster>2</fireDistanceFromCaster>-->
 		<lifetime>250</lifetime>
 	</ThingDef>
 
@@ -143,12 +143,12 @@
 			<soundExplode>Explosion_Bomb</soundExplode>
 		</projectile>
 		<beamWidth>1</beamWidth>
-		<fireWidth>2</fireWidth>
+		<!--<fireWidth>2</fireWidth>
 		<spawnFire>false</spawnFire>
 		<dontSpawnFireOnCaster>false</dontSpawnFireOnCaster>
-		<fireDistanceFromCaster>1</fireDistanceFromCaster>
+		<fireDistanceFromCaster>1</fireDistanceFromCaster>-->
 		<lifetime>300</lifetime>
-		<disableFading>True</disableFading>
+		<!--<disableFading>True</disableFading>-->
 	</ThingDef>
 
 
@@ -195,10 +195,11 @@
 			<soundExplode>Explosion_Bomb</soundExplode>
 		</projectile>
 		<beamWidth>3</beamWidth>
-		<fireWidth>0</fireWidth>
+		<!--<fireWidth>0</fireWidth>
 		<spawnFire>true</spawnFire>
 		<dontSpawnFireOnCaster>true</dontSpawnFireOnCaster>
-		<fireDistanceFromCaster>2</fireDistanceFromCaster>
+		<fireDistanceFromCaster>2</fireDistanceFromCaster>-->
+		<causefireChance>1</causefireChance>
 		<lifetime>150</lifetime>
 	</ThingDef>
 
@@ -224,10 +225,11 @@
 			<soundExplode>Explosion_Bomb</soundExplode>
 		</projectile>
 		<beamWidth>4</beamWidth>
-		<fireWidth>3</fireWidth>
+		<!--<fireWidth>3</fireWidth>
 		<spawnFire>true</spawnFire>
 		<dontSpawnFireOnCaster>true</dontSpawnFireOnCaster>
-		<fireDistanceFromCaster>2</fireDistanceFromCaster>
+		<fireDistanceFromCaster>2</fireDistanceFromCaster>-->
+		<causefireChance>1</causefireChance>
 		<lifetime>360</lifetime>
 	</ThingDef>
 
