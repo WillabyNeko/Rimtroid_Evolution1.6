@@ -10,20 +10,19 @@
 
 		<description>Ancient, devastating bioweapons that originated from a distant galaxy, which have adapted to this world. Metroids are artifically created, requiring no sleep, water, or solid food; instead, they rely on the very life energy of others, allowing them to live hundreds of years if nourished properly. This also makes them a threat to the economy they survive in, as even one Metroid is prone to absorbing the life energy of every living thing around it, and then moving on once no suitable prey is around. Keep one around is both risky and demanding, but successfully controlling one grants access to a truly unique weapon of war.\n\nThese specific Metroids are "true" Metroids; it will survive normally on the planet, but an artificial habitat is required to further evolve it.</description>
 		<statBases>
-		
 	<!-- Internal Stats -->
-		  <ToxicEnvironmentResistance>0</ToxicEnvironmentResistance>
-		  <PsychicSensitivity>0</PsychicSensitivity>
-      <Flammability>0</Flammability>
-		  <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
-		  <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
-		  <ArmorRating_Heat>1</ArmorRating_Heat>
-		  <MoveSpeed>3</MoveSpeed>
-		  <MarketValue>120</MarketValue>
-		  <ComfyTemperatureMin>10</ComfyTemperatureMin> <!--50F: other was 15, which is 60F. Hoqwever since 60F is generally room temperature, it was made 50-->
-		  <ComfyTemperatureMax>760</ComfyTemperatureMax>
-		  <MeatAmount>10</MeatAmount>
-		  <Wildness>0.9</Wildness>
+			<ToxicEnvironmentResistance>0</ToxicEnvironmentResistance>
+			<PsychicSensitivity>0</PsychicSensitivity>
+			<Flammability>0</Flammability>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+			<ArmorRating_Heat>1</ArmorRating_Heat>
+			<MoveSpeed>3</MoveSpeed>
+			<MarketValue>120</MarketValue>
+			<ComfyTemperatureMin>10</ComfyTemperatureMin> <!--50F: other was 15, which is 60F. Hoqwever since 60F is generally room temperature, it was made 50-->
+			<ComfyTemperatureMax>760</ComfyTemperatureMax>
+			<MeatAmount>10</MeatAmount>
+			<Wildness>0.9</Wildness>
 		</statBases>
 		<uiIconScale>1.35</uiIconScale>
 		
@@ -69,10 +68,10 @@
 		<comps>
 			<li Class="VEF.AnimalBehaviours.CompProperties_Floating"></li>
 			<li Class="VEF.AnimalBehaviours.CompProperties_NoTamingDecay"></li>
-			<!--<li Class="RT_Rimtroid.CompProperties_QueenDrone"></li>
-			<li Class="RT_Rimtroid.CompProperties_EvolutionStage"> needed so metroids recieve hediff upon spawning
+			<!--<li Class="RT_Rimtroid.CompProperties_QueenDrone"></li>-->
+			<li Class="RT_Rimtroid.CompProperties_EvolutionStage"> <!--needed so metroids recieve hediff upon spawning-->
 				<spawnStage>RT_LarvaState</spawnStage>
-			</li>-->
+			</li>
 			<!--<li Class="CompProperties_UseEffect.cs">
 				<hediffname>RT_LowRest</hediffname>
 				<hediffseverity>1</hediffseverity>
@@ -82,7 +81,7 @@
 				<hediffseverity>1</hediffseverity>
 			</li> -->
 	<!-- Race stats -->
-	</comps>
+		</comps>
 		
 		<race>
     <!-- Overriding animal think tree -->

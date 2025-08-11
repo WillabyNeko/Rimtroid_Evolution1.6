@@ -76,9 +76,9 @@
 				<customResourceString>RT_BioResinDesc</customResourceString>
 			</li>
 			<li Class="VEF.AnimalBehaviours.CompProperties_NoTamingDecay"></li>
-			<!--<li Class="RT_Rimtroid.CompProperties_EvolutionStage">
+			<li Class="RT_Rimtroid.CompProperties_EvolutionStage">
 				<spawnStage>RT_GammaState</spawnStage>
-			</li>-->
+			</li>
 			<!--<li Class="CompProperties_UseEffect.cs">
 				<hediffname>RT_LowRest</hediffname>
 				<hediffseverity>1</hediffseverity>

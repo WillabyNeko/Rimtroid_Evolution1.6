@@ -94,17 +94,17 @@
             </tools>
             <comps>
 				<li Class="VEF.AnimalBehaviours.CompProperties_NoTamingDecay"></li>
-			<!--<li Class="RT_Rimtroid.CompProperties_EvolutionStage">
-				<spawnStage>RT_QueenState</spawnStage> This field tells the game what hediff stage the metroid should have when spawned in
-			</li>-->
-			<!--<li Class="RT_Core.CompProperties_SpawnerAdv">
-				<pawnKindToSpawn>RT_MetroidLarvae</pawnKindToSpawn>
+			<li Class="RT_Rimtroid.CompProperties_EvolutionStage">
+				<spawnStage>RT_QueenState</spawnStage> <!--This field tells the game what hediff stage the metroid should have when spawned in-->
+			</li>
+			<li Class="CompProperties_Spawner">
+				<thingToSpawn>RT_MetroidLarvae</thingToSpawn>
 				<spawnCount>1</spawnCount>
 				<spawnIntervalRange>120000~150000</spawnIntervalRange>
-				<maxPawnCount>6</maxPawnCount>
+				<spawnMaxAdjacent>6</spawnMaxAdjacent>
 				<saveKeysPrefix>larvae</saveKeysPrefix>
 				<inheritFaction>true</inheritFaction>
-			</li>-->
+			</li>
                 <!-- Defines the conditions for when to give the pawn an ability -->
         <!--<li Class="RT_Core.CompProperties_AbilityDefinition">
 			  <compClass>RT_Core.CompAbilityDefinition</compClass>

@@ -94,9 +94,9 @@ These specific Metroids are "Pure" Metroids, and as such share the same traits, 
 		</tools>
 		<comps>
 			<li Class="VEF.AnimalBehaviours.CompProperties_NoTamingDecay"></li>
-			<!--<li Class="RT_Rimtroid.CompProperties_EvolutionStage">
+			<li Class="RT_Rimtroid.CompProperties_EvolutionStage">
 				<spawnStage>RT_OmegaState</spawnStage>
-			</li>-->
+			</li>
 			<!--<li Class="CompProperties_UseEffect.cs">
 				<hediffname>RT_LowRest</hediffname>
 				<hediffseverity>1</hediffseverity>

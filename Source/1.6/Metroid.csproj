@@ -59,6 +59,7 @@
     <Compile Include="Evolution\Events\QuestNode_EnemyLeaderIsLiving.cs" />
     <Compile Include="Evolution\Events\QuestNode_SetEnemyFaction.cs" />
     <Compile Include="Evolution\Events\RaidOptions.cs" />
+    <Compile Include="Evolution\HediffCompProperties_MetroidEvolution.cs" />
     <Compile Include="Evolution\HediffDefections.cs" />
     <Compile Include="Evolution\CompAlphaBomb.cs" />
     <Compile Include="Evolution\ElectricExplosion.cs" />

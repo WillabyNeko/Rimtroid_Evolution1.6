@@ -26,7 +26,7 @@
     </thingCategories>
 	</ThingDef>
 
-  <ThingDef Name ="RT_MetroidInjectableBase" ParentName="RT_MetroidModificationBase" Abstract="True">
+  <ThingDef Name="RT_MetroidInjectableBase" ParentName="RT_MetroidModificationBase" Abstract="True">
     <statBases>
       <MarketValue>2200</MarketValue>
       <DeteriorationRate>0</DeteriorationRate>

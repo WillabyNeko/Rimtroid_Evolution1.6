@@ -72,6 +72,6 @@ namespace RT_Rimtroid
             base.Write();
         }
 
-        private Vector2 scrollPosition = Vector2.zero;
+        //private Vector2 scrollPosition = Vector2.zero;
     }
 }

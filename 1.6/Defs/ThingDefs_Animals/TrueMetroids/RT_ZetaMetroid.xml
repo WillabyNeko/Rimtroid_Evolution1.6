@@ -72,9 +72,9 @@
 		</tools>
 		<comps>
 			<li Class="VEF.AnimalBehaviours.CompProperties_NoTamingDecay"></li>
-			<!--<li Class="RT_Rimtroid.CompProperties_EvolutionStage">
-			<spawnStage>RT_ZetaState</spawnStage>
-			</li>-->
+			<li Class="RT_Rimtroid.CompProperties_EvolutionStage">
+				<spawnStage>RT_ZetaState</spawnStage>
+			</li>
 		</comps>
 
 		<!-- Race stats -->		
