@@ -96,6 +96,7 @@ namespace RT_Core
 			}
 
             var options = pawn.def.GetModExtension<RT_EnergyDrain>();
+			Log.Message("Options nullcheck: " + options);
 			if (options != null)
             {
 				var freshCorpse = FoodMethod.FindTarget(pawn, 250f, (Thing x) => x is Corpse corpse && !RT_Utils.blackListRaces.Contains(corpse.InnerPawn.def) 
@@ -105,7 +106,8 @@ namespace RT_Core
 					Job job = JobMaker.MakeJob(RT_RimtroidDefOf.RT_AbsorbingEnergy, freshCorpse);
 					var hediff = HediffMaker.MakeHediff(RT_DefOf.RT_MetroidHunting, pawn);
 					pawn.health.AddHediff(hediff);
-					return job;
+                    Log.Message("freshCorpse debug: " + job);
+                    return job;
                 }
 				var prisoner = FoodMethod.FindTarget(pawn, 250f, (Thing x) => x is Pawn victim && victim.IsPrisoner && !victim.Downed && victim.GetComp<CompPrisonerFeed>().canBeEaten && pawn.CanReserve(x), 
 					ThingRequestGroup.Pawn);
@@ -114,7 +116,8 @@ namespace RT_Core
 					Job job = JobMaker.MakeJob(RT_RimtroidDefOf.RT_AbsorbingEnergy, prisoner);
 					var hediff = HediffMaker.MakeHediff(RT_DefOf.RT_MetroidHunting, pawn);
 					pawn.health.AddHediff(hediff);
-					return job;
+                    Log.Message("prisoner debug: " + job);
+                    return job;
 				}
 				var wildAnimal = FoodMethod.FindTarget(pawn, 250f, (Thing x) => x is Pawn victim && (pawn.Faction is null && !victim.IsAnyMetroid() || pawn.Faction == Faction.OfPlayer) && !RT_Utils.blackListRaces.Contains(victim.def) && victim.RaceProps.Animal && victim.Faction != pawn.Faction && victim.BodySize <= 4f 
 				&& pawn.CanReserve(x), ThingRequestGroup.Pawn);
@@ -123,7 +126,8 @@ namespace RT_Core
 					Job job = JobMaker.MakeJob(RT_RimtroidDefOf.RT_AbsorbingEnergy, wildAnimal);
 					var hediff = HediffMaker.MakeHediff(RT_DefOf.RT_MetroidHunting, pawn);
 					pawn.health.AddHediff(hediff);
-					return job;
+                    Log.Message("wildAnimal debug: " + job);
+                    return job;
 				}
 			}
 			Thing foodSource = FoodMethod.FindPawnTarget(pawn, 250f);
@@ -132,8 +136,10 @@ namespace RT_Core
                 Log.Message("Metroid is hunting.");
                 Job job = JobMaker.MakeJob(JobDefOf.AttackMelee, pawn2);
                 job.killIncappedTarget = false;
+                Log.Message("foodSource debug: " + job);
                 return job;
             }
+			Log.Message("null");
             return null;
 		}
 	}

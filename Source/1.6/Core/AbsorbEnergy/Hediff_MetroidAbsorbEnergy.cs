@@ -22,7 +22,7 @@ namespace RT_Core
             var gainMultiplier = drainFoodGain / 0.10f;
 
             this.gainedTicks = (int)(GenDate.TicksPerDay * (drainAgeFactor * gainMultiplier));
-            Log.Message($"gainedDays - {gainedTicks / GenDate.TicksPerDay} - drainFoodGain: {drainFoodGain} - drainAgeFactor: {drainAgeFactor} - gainMultiplier: {gainMultiplier}");
+            //Log.Message($"gainedDays - {gainedTicks / GenDate.TicksPerDay} - drainFoodGain: {drainFoodGain} - drainAgeFactor: {drainAgeFactor} - gainMultiplier: {gainMultiplier}");
         }
 
         public override void Tick()
@@ -32,12 +32,12 @@ namespace RT_Core
             {
                 MoteMaker.MakeStaticMote(this.pawn.Position, this.pawn.Map, RT_DefOf.RT_ProcessingEnergyMote);
                 var ageGain = (gainedTicks / drainEnergyProcessing) * 30f;
-                Log.Message(this.pawn + " gets new tick: " + ageGain);
+                //Log.Message(this.pawn + " gets new tick: " + ageGain);
                 this.pawn.ageTracker.AgeBiologicalTicks += (int)ageGain;
                 var foodGain = (drainFoodGain / drainEnergyProcessing) * 30f;
-                Log.Message(this.pawn + " gets new food gain: " + foodGain + " - cur level: " + this.pawn.needs.food.CurLevelPercentage);
+                //Log.Message(this.pawn + " gets new food gain: " + foodGain + " - cur level: " + this.pawn.needs.food.CurLevelPercentage);
                 this.pawn.needs.food.CurLevelPercentage += foodGain;
-                Log.Message(this.pawn + " gets new food gain: " + foodGain + " - cur level: " + this.pawn.needs.food.CurLevelPercentage);
+                //Log.Message(this.pawn + " gets new food gain: " + foodGain + " - cur level: " + this.pawn.needs.food.CurLevelPercentage);
             }
             if (Find.TickManager.TicksGame > startLatchingTick + drainEnergyProcessing)
             {

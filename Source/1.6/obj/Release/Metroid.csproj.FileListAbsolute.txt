@@ -13,6 +13,3 @@ C:\Users\WillabyPC\Documents\GitHub\Rimtroid_Evolution_Lite\Source\1.6\obj\Relea
 C:\Users\WillabyPC\Documents\GitHub\Rimtroid_Evolution_Lite\Source\1.6\obj\Release\Rimtroid_Evolution.pdb
 C:\Users\WillabyPC\Documents\GitHub\Rimtroid_Evolution_Lite\Source\1.6\bin\Release\Rimtroid_Evolution.dll
 C:\Users\WillabyPC\Documents\GitHub\Rimtroid_Evolution_Lite\Source\1.6\bin\Release\Rimtroid_Evolution.pdb
-C:\Users\WillabyPC\Documents\GitHub\Rimtroid_Evolution_Lite\Source\1.6\bin\Release\0Harmony.dll
-C:\Users\WillabyPC\Documents\GitHub\Rimtroid_Evolution_Lite\Source\1.6\bin\Release\0Harmony.pdb
-C:\Users\WillabyPC\Documents\GitHub\Rimtroid_Evolution_Lite\Source\1.6\obj\Release\Metroid.csproj.CopyComplete

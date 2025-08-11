@@ -3,4 +3,7 @@
   <PropertyGroup>
     <ProjectView>ProjectFiles</ProjectView>
   </PropertyGroup>
+  <PropertyGroup>
+    <ReferencePath>C:\Users\WillabyPC\Documents\GitHub\Rimtroid_Core1.6\1.6\Assemblies\</ReferencePath>
+  </PropertyGroup>
 </Project>

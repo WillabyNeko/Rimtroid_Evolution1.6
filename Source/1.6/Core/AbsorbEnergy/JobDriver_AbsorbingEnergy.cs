@@ -42,6 +42,7 @@ namespace RT_Rimtroid
                     {
                         this.pawn.health.RemoveHediff(hunting);
                     }
+                    this.EndJobWith(JobCondition.Succeeded);
                     this.pawn.DeSpawn();
                 }
                 else if (Target is Pawn victim)
@@ -88,6 +89,7 @@ namespace RT_Rimtroid
                         {
                             this.pawn.health.RemoveHediff(hunting);
                         }
+                        this.EndJobWith(JobCondition.Succeeded);
                         this.pawn.DeSpawn();
                     }
                 }

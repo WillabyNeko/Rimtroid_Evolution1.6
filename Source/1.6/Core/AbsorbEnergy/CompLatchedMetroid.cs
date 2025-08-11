@@ -72,7 +72,7 @@ namespace RT_Core
                 latchedMetroid.Drawer.renderer.RenderPawnAt(finalPos);
             }
             latchedMetroid.Rotation = hediff_LatchedMetroid.pawn.Rotation;
-            Log.Message(latchedMetroid + " - " + latchedMetroid.Rotation.ToStringHuman() + " - " + hediff_LatchedMetroid.pawn + " - " + hediff_LatchedMetroid.pawn.Rotation.ToStringHuman());
+            //Log.Message(latchedMetroid + " - " + latchedMetroid.Rotation.ToStringHuman() + " - " + hediff_LatchedMetroid.pawn + " - " + hediff_LatchedMetroid.pawn.Rotation.ToStringHuman());
         }
 
         public override void CompTick()
