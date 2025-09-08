@@ -74,6 +74,7 @@
     <Compile Include="Evolution\Events\Event_LarvaePack.cs" />
     <Compile Include="Evolution\Events\Event_LoneBantee.cs" />
     <Compile Include="Evolution\JobDriver_PlaceBomb.cs" />
+    <Compile Include="Evolution\PawnFlyer_LungeAndLatch.cs" />
     <Compile Include="Evolution\SedativeProjecileExt.cs" />
     <Compile Include="Evolution\SedativeProjectile.cs" />
     <Compile Include="Evolution\Alpha_ProximityTrapProperties.cs" />
@@ -93,8 +94,8 @@
     </PackageReference>
     <PackageReference Include="Lib.Harmony">
       <Version>2.3.6</Version>
-	  <PrivateAssets>all</PrivateAssets>
-	  <ExcludeAssets>runtime</ExcludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+      <ExcludeAssets>runtime</ExcludeAssets>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

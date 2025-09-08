@@ -167,44 +167,6 @@
 			</li>
 		</comps>
 	</AbilityDef>-->
-	
-	<!-- Using as a ref -->
-	
-	<!--<AbilityDef ParentName="AbilityTouchBase">
-		<defName>UnnaturalHealing</defName>
-		<label>unnatural healing</label>
-		<description>Use dark psychic influence to heal someone. The process will stop bleeding, restore blood loss, and can even heal significant injuries. However, it may also have unexpected side effects.</description>
-		<iconPath>UI/Abilities/UnnaturalHealing</iconPath>-->
-		<!--<cooldownTicksRange>360000</cooldownTicksRange>  6 days -->
-		<!--<showPsycastEffects>false</showPsycastEffects>
-		<sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
-		<stunTargetWhileCasting>true</stunTargetWhileCasting>
-		<moteOffsetAmountTowardsTarget>0.5</moteOffsetAmountTowardsTarget>
-		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
-		<disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
-		<warmupMote>Mote_HoraxSmallSpellWarmup</warmupMote>
-		<warmupEffecter>HoraxianAbilityCasting</warmupEffecter>
-		<warmupSound>AnomalyAbilityWarmup</warmupSound>
-		<hostile>false</hostile>
-		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
-		<verbProperties>
-			<verbClass>Verb_CastAbilityTouch</verbClass>
-			<drawAimPie>false</drawAimPie>
-			<range>-1</range>
-			<warmupTime>4.5</warmupTime>
-			<targetParams>
-				<canTargetSelf>false</canTargetSelf>
-				<canTargetMechs>false</canTargetMechs>
-				<canTargetBuildings>false</canTargetBuildings>
-			</targetParams>
-		</verbProperties>
-		<comps>
-			<li Class="CompProperties_UnnaturalHealing" />
-			<li Class="CompProperties_AbilityFleckOnTarget">
-				<fleckDef>UnnaturalHealing</fleckDef>
-			</li>
-		</comps>
-	</AbilityDef>-->
 
 	<!--=============== Larvae Abilities ===============-->
 

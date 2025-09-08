@@ -64,7 +64,7 @@ namespace RT_Rimtroid
 		public static ThingDef RT_ProtusSphere;
 
 		//public static JobDef RT_PlaceAlphaBomb;
-		//public static ThingDef RT_MetroidBomb;
+		public static ThingDef RT_MetroidBomb;
 
 		public static RulePackDef RT_QueenNames;
 		//public static IncidentDef RT_QueenSpotted;

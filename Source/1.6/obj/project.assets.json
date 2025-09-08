@@ -814,9 +814,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\WillabyPC\\Documents\\GitHub\\Rimtroid_Evolution_Lite\\Source\\1.6\\Metroid.csproj",
+      "projectUniqueName": "C:\\Users\\WillabyPC\\Documents\\GitHub\\Rimtroid_Evolution_Lite\\Source\\1.6\\Rimtroid.csproj",
       "projectName": "Rimtroid_Evolution",
-      "projectPath": "C:\\Users\\WillabyPC\\Documents\\GitHub\\Rimtroid_Evolution_Lite\\Source\\1.6\\Metroid.csproj",
+      "projectPath": "C:\\Users\\WillabyPC\\Documents\\GitHub\\Rimtroid_Evolution_Lite\\Source\\1.6\\Rimtroid.csproj",
       "packagesPath": "C:\\Users\\WillabyPC\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\WillabyPC\\Documents\\GitHub\\Rimtroid_Evolution_Lite\\Source\\1.6\\obj\\",
       "projectStyle": "PackageReference",

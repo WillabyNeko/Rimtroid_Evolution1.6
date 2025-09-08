@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="PawnFlyerBase">
+		<defName>PawnFlyer_MetroidLunge</defName>
+		<pawnFlyer>
+			<flightDurationMin>0.2</flightDurationMin>
+			<flightSpeed>12</flightSpeed>
+			<stunDurationTicksRange>60~180</stunDurationTicksRange>
+			<heightFactor>0</heightFactor>
+		</pawnFlyer>
+	</ThingDef>
+	
+</Defs>
